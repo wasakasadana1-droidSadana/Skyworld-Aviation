@@ -1,0 +1,30 @@
+name: Update Aviation News
+
+on:
+  schedule:
+    - cron: "30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get repository files
+        uses: actions/checkout@v4
+
+      - name: Update news timestamp
+        run: |
+          mkdir -p data
+          echo "{\"lastUpdated\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" > data/news-update.json
+
+      - name: Save update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news-update.json
+          git diff --cached --quiet || git commit -m "Update aviation news timestamp"
+          git push
