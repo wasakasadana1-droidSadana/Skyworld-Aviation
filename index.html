@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Skyworld Aviation | Aviation News & Photos</title>
+
+    <meta name="description" content="Skyworld Aviation - Explore aviation news, aircraft photos, airlines and the world of aviation.">
+
+    <meta name="google-site-verification" content="60W35VChzf47VAlmvsmsngVvmCtWzmz_g4gI90IRYQ0" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f5fa;
+            color: #172b4d;
+        }
+
+        header {
+            background: #071d3a;
+            color: white;
+            text-align: center;
+            padding: 25px 10px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 16px;
+            color: #c8e4ff;
+        }
+
+        nav {
+            background: #123d70;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: linear-gradient(
+                rgba(0, 20, 50, 0.65),
+                rgba(0, 20, 50, 0.65)
+            ),
+            url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1600&q=80");
+
+            background-size: cover;
+            background-position: center;
+            min-height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 30px;
+        }
+
+        .hero h2 {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 28px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 22px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 190px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 18px 10px 10px;
+            font-size: 22px;
+        }
+
+        .card p {
+            padding: 0 15px;
+            line-height: 1.6;
+            color: #52647a;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 18px;
+            padding: 12px 24px;
+            background: #0878d1;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #07599c;
+        }
+
+        .about {
+            background: white;
+            margin-top: 35px;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            line-height: 1.8;
+        }
+
+        footer {
+            background: #071d3a;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+            margin-top: 35px;
+        }
+
+        footer p {
+            margin: 8px 0;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 26px;
+            }
+
+            .hero h2 {
+                font-size: 28px;
+            }
+
+            nav a {
+                margin: 0 7px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>✈️ Skyworld Aviation</h1>
+        <p>Discover the World of Aviation</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#photos">Photos</a>
+        <a href="#news">News</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <div>
+            <h2>Welcome to Skyworld Aviation</h2>
+            <p>
+                Explore Aircraft, Discover Airlines,
+                and Stay Updated with Aviation News.
+            </p>
+            <a href="#photos" class="button">Explore Photos</a>
+        </div>
+    </section>
+
+    <main class="container">
+
+        <h2 class="section-title">Explore Aviation</h2>
+
+        <div class="cards">
+
+            <section class="card" id="photos">
+                <img
+                    src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80"
+                    alt="Passenger aircraft in the sky"
+                >
+
+                <h3>✈️ Aircraft Photos</h3>
+
+                <p>
+                    Discover beautiful aircraft photographs
+                    from around the world.
+                </p>
+
+                <a
+                    href="https://unsplash.com/s/photos/airplane"
+                    class="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    View Photos
+                </a>
+            </section>
+
+            <section class="card" id="news">
+                <img
+                    src="https://images.unsplash.com/photo-1474302770737-173ee21bab63?auto=format&fit=crop&w=800&q=80"
+                    alt="Airplane flying in the sky"
+                >
+
+                <h3>📰 Aviation News</h3>
+
+                <p>
+                    Read aviation updates, airline news
+                    and information about aircraft.
+                </p>
+
+                <a
+                    href="https://www.flightglobal.com/"
+                    class="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Read News
+                </a>
+            </section>
+
+            <section class="card">
+                <img
+                    src="https://images.unsplash.com/photo-1542296332-2e4473faf563?auto=format&fit=crop&w=800&q=80"
+                    alt="Aircraft at an airport"
+                >
+
+                <h3>🌍 World Aviation</h3>
+
+                <p>
+                    Explore airlines, airports and
+                    aviation around the world.
+                </p>
+
+                <a
+                    href="https://www.flightradar24.com/"
+                    class="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Explore Flights
+                </a>
+            </section>
+
+        </div>
+
+        <section class="about" id="about">
+            <h2>About Skyworld Aviation</h2>
+
+            <p>
+                Welcome to Skyworld Aviation!
+                This website is dedicated to aviation lovers.
+                Explore aircraft photos, aviation news,
+                airlines and the fascinating world of flight.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Skyworld Aviation</p>
+        <p>Made for Aviation Lovers ✈️</p>
+    </footer>
+
+</body>
+</html>
