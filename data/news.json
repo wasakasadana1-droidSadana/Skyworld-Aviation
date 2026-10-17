@@ -1,14 +1,626 @@
-  {
+{
   "world": [
     {
-      "title": "Latest Aviation News",
-      "link": "https://news.google.com/",
-      "date": "Latest News"
+      "title": "Battery Fire at Archer’s San Jose Lab Forces Evacuation - Aviation International News",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSHpiUlVYNjE0eTFxVkFMc05pLXhSaEsxejExdGR4VjhxSHdSTGgtRXUxOGRyNy0wSE9sZzQwcVFBcHJSVnJZbDlkYVVrMTJxZVQtaTZEWXpRdHZIMWVZM3dJa2hweWVIQ0RiRmhKZ1ZRNzAxYkV5c0pCUm5neXMyTmVQclFxVElGZzVGY0huSjA4WmlzSnkyaXFaQlhJeUFsT0pEeGo4UzViWk80WnFRNVk1dnAwUQ?oc=5",
+      "date": "Thu, 15 Oct 2026 07:39:01 GMT"
+    },
+    {
+      "title": "Thrive Unveils First Fractional Fleet Aircraft - Aviation International News",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYTJLWkd6V2hyM0J5N3E4RTUxQlJWa29aRlp4OXZybW1WczhYMlJ3cS1JTjlOckVXS3ZUd09ZOHZuMHJ2UzdPUFpfRWEwTlQ4S0hmVEdFZTEzdUZxTGwxdGdRS1FSOFNCUHRGWXpWekNYM2xVZGhSQ3ljeDVRSEw4RGJaa0dnODFDbDF3R3hjOW50dWxyQlRuUnFCOW9hb24tUXI2aG9xTy04RGtFZWp1cnd6XzliQQ?oc=5",
+      "date": "Sat, 17 Oct 2026 02:24:42 GMT"
+    },
+    {
+      "title": "Bedford To Headline ‘Meet the Regulators’ at BACE - Aviation International News",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNb0dGV2UtN3JXeGw3TlA0Rk9uajUxNGNFNjBLUUVoSXpPcVNiSDhqQ0FnYnNDOVkzbjdhTEdXdTlKcWY2YlU3a2VobWJoLTdaRkd3VURrc3NaV2lpMmhyelhJWENFcXEwOV9laUQtbnlNSWZqaUMwWWNmM3lmQ0oyWmtvS212aUZaSVE1TGE5c1VESWpFbE1CNFBJcTN5OHdyUm9EV1pUcTdDUQ?oc=5",
+      "date": "Sat, 17 Oct 2026 02:30:34 GMT"
+    },
+    {
+      "title": "Sentry ADS-B In Receivers Reach 100,000-delivered Milestone - Aviation International News",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTWotNndFejQzVW5rdTdFVkc3ejFpRTl4cGJKal9zeGpKSENsak1IMk85YVBtalpSQ0tnY3Z4SFQ2TjA2U096VzA5ZmJxWFFQNy05MHRYVXMyenc5b0JqV1lBSzF4SzBxby1JSlZ0NDl2dDhBX0xiMEMtV0t1dXo1LWx2MVBfQmI1LTNiY2lpbHNNX1p3Q0U2SmJZS2draE0yRFFVRzlvQjYzZzljbTJxQVhJVWxuNTFaZExv?oc=5",
+      "date": "Sat, 17 Oct 2026 02:24:03 GMT"
+    },
+    {
+      "title": "Help Fly the A6M3 Zero Home: Museum Launches Cross-Country Fuel Campaign - Vintage Aviation News",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOanBzYWp0cjN5VnkzcUFUT3dOX3pWVnZ5Q3lsZnFONUU1SU5xQjhXdk5UY1psYkhjcnhSQ3V3ZUxfTXhIclBPQnR5SmJoS3p1VzVFUnRRZmlkbXJJa0xWcml2OVFhYXpmZ0lpWjB0VmlYek0zZWJFVkJVamxENHN6aXAxUGFWaXVTdXZVRjQxU1RMZ3BNLTRzdkhyU1dKRkVKbVVmSE9lTlN2STFmaVMzMGpmdTQ4cmRwWE9QbF8xNA?oc=5",
+      "date": "Fri, 16 Oct 2026 14:12:41 GMT"
+    },
+    {
+      "title": "Aviation expert weighs in on three routes cut by major airline - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96OXB1N2ozbUNQY2xPeXcydEpubU94YVRSZ2FEckF2Y2NpMEE3MGEwLWd5Y2Q0LTh1cmxTR0JnT01Sa0NDXzJDMkl4a1pJcVlxWkF0bnVn?oc=5",
+      "date": "Wed, 14 Oct 2026 22:46:21 GMT"
+    },
+    {
+      "title": "First French Pilatus PC-7 MKX Takes Flight - AVweb",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaU1fNTZacDQzdk85S3hldnZZZVFLeXFLUUx0eHBMc0R3NnpRLU4wVzNnY2hLa1dHWGtYQXpBV2Z0OGRVMUVMTmdJQUk1MEc2d2RWaXFDMDc4NG00Wmdfbjl6RlV4XzkwalZBdFQwLXBxamdHNUUyaEZLcXdIRWhCRg?oc=5",
+      "date": "Thu, 15 Oct 2026 20:07:35 GMT"
+    },
+    {
+      "title": "Airport attacks put aviation in crosshairs of geopolitical conflicts - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5KWnZWVDlQYmdtdXJOa3FQWFVUX1FUM2laNkRqQnFSeUtocFdQVEYxdmpJNUVyczY0cm10MWhIbDhHY0tCcnNiLU9aaTlpem5vd2xzaVUzN0lUdkpYai10R1RfQ3lOTWZ0WEhmZk41WUpWUlRzTEZv0gF8QVVfeXFMTmJwWlh1ZWh6X1NrOTNzR0ctN2NRd1RCQ1Vrd3VaRGphd1BCODEwZ2xxSmdfQXI4YVJIQ3dQYWFWRnIzbWNQTHdGeDFUWnVVSUMyMDFmQzRBOEppZEJRWXpqWWFUcE5sQVlUSm56U3ZCSHZtMVhFLTIxM3k2Yg?oc=5",
+      "date": "Tue, 13 Oct 2026 18:33:33 GMT"
+    },
+    {
+      "title": "Japan holds talks with Air Serbia - EX-YU Aviation News",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOG9wVGNDV0xrZ3pJLUc5a3VvWUtyM0J3X1RzQ0k4Ni1SaktSWllpSjZXd3gtN0ZvTlNMWGxUd2R2czJOd0dXOENDdEZleTVoejY3OGdacmJBdEFYenFQT0tJY0phUEJlOFlORXNodkJIRHo5VnVJQTcxcmhDZkY3UA?oc=5",
+      "date": "Wed, 14 Oct 2026 08:30:00 GMT"
+    },
+    {
+      "title": "Cessna 210 Engine Separates After Takeoff - AVweb",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GMUNFZkNfN0NzbXU5T1FLZHlKM05SVnA2WnN4bzExaUNaLW9sMWtlWi11Zl9EM29rQ1R1b29TeXJHRi15UlRlZVdpVTVSZXNvcWtDMG5ma0IyTXdoMVU4dU9PdFZIMjNBcTA0S010ZzFrT1gwUmo3cWhLcGZEbUU?oc=5",
+      "date": "Thu, 15 Oct 2026 16:53:18 GMT"
     }
   ],
-  "srilanka": [],
-  "airlines": [],
-  "aircraft": [],
-  "airports": [],
-  "safety": []
+  "world_si": [
+    {
+      "title": "Battery Fire at Archer’s San Jose Lab Forces Evacuation - Aviation International News",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSHpiUlVYNjE0eTFxVkFMc05pLXhSaEsxejExdGR4VjhxSHdSTGgtRXUxOGRyNy0wSE9sZzQwcVFBcHJSVnJZbDlkYVVrMTJxZVQtaTZEWXpRdHZIMWVZM3dJa2hweWVIQ0RiRmhKZ1ZRNzAxYkV5c0pCUm5neXMyTmVQclFxVElGZzVGY0huSjA4WmlzSnkyaXFaQlhJeUFsT0pEeGo4UzViWk80WnFRNVk1dnAwUQ?oc=5",
+      "date": "Thu, 15 Oct 2026 07:39:01 GMT"
+    },
+    {
+      "title": "Help Fly the A6M3 Zero Home: Museum Launches Cross-Country Fuel Campaign - Vintage Aviation News",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOanBzYWp0cjN5VnkzcUFUT3dOX3pWVnZ5Q3lsZnFONUU1SU5xQjhXdk5UY1psYkhjcnhSQ3V3ZUxfTXhIclBPQnR5SmJoS3p1VzVFUnRRZmlkbXJJa0xWcml2OVFhYXpmZ0lpWjB0VmlYek0zZWJFVkJVamxENHN6aXAxUGFWaXVTdXZVRjQxU1RMZ3BNLTRzdkhyU1dKRkVKbVVmSE9lTlN2STFmaVMzMGpmdTQ4cmRwWE9QbF8xNA?oc=5",
+      "date": "Fri, 16 Oct 2026 14:12:41 GMT"
+    },
+    {
+      "title": "Aviation expert weighs in on three routes cut by major airline - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96OXB1N2ozbUNQY2xPeXcydEpubU94YVRSZ2FEckF2Y2NpMEE3MGEwLWd5Y2Q0LTh1cmxTR0JnT01Sa0NDXzJDMkl4a1pJcVlxWkF0bnVn?oc=5",
+      "date": "Wed, 14 Oct 2026 22:46:21 GMT"
+    },
+    {
+      "title": "First French Pilatus PC-7 MKX Takes Flight - AVweb",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaU1fNTZacDQzdk85S3hldnZZZVFLeXFLUUx0eHBMc0R3NnpRLU4wVzNnY2hLa1dHWGtYQXpBV2Z0OGRVMUVMTmdJQUk1MEc2d2RWaXFDMDc4NG00Wmdfbjl6RlV4XzkwalZBdFQwLXBxamdHNUUyaEZLcXdIRWhCRg?oc=5",
+      "date": "Thu, 15 Oct 2026 20:07:35 GMT"
+    },
+    {
+      "title": "Aviation Capital Group places its largest order for Airbus jets - FlightGlobal",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY2pabXN1UF9vUm1WZXdIOGl6LUxoX0hBRWFtNmpkM2dSUms3Y0lCdlpSTDlGdjhacF8yX1NjTW1FcVhSTUUtbHFTNndZb1c5SGc5ckRuMWxsNXEwNm1CUEl4LUZvLWtGWU5mM1hWZTVjbTcyaWhjazRXcWtMYklFdjY3anFaVHVlR3pfUVMwaGVRTHRkSU1qV0FVbHZxMUl2Wm5HcXNJNEpIREZ3?oc=5",
+      "date": "Fri, 16 Oct 2026 06:22:30 GMT"
+    },
+    {
+      "title": "Airport attacks put aviation in crosshairs of geopolitical conflicts - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5KWnZWVDlQYmdtdXJOa3FQWFVUX1FUM2laNkRqQnFSeUtocFdQVEYxdmpJNUVyczY0cm10MWhIbDhHY0tCcnNiLU9aaTlpem5vd2xzaVUzN0lUdkpYai10R1RfQ3lOTWZ0WEhmZk41WUpWUlRzTEZv0gF8QVVfeXFMTmJwWlh1ZWh6X1NrOTNzR0ctN2NRd1RCQ1Vrd3VaRGphd1BCODEwZ2xxSmdfQXI4YVJIQ3dQYWFWRnIzbWNQTHdGeDFUWnVVSUMyMDFmQzRBOEppZEJRWXpqWWFUcE5sQVlUSm56U3ZCSHZtMVhFLTIxM3k2Yg?oc=5",
+      "date": "Tue, 13 Oct 2026 18:33:33 GMT"
+    },
+    {
+      "title": "Japan holds talks with Air Serbia - EX-YU Aviation News",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOG9wVGNDV0xrZ3pJLUc5a3VvWUtyM0J3X1RzQ0k4Ni1SaktSWllpSjZXd3gtN0ZvTlNMWGxUd2R2czJOd0dXOENDdEZleTVoejY3OGdacmJBdEFYenFQT0tJY0phUEJlOFlORXNodkJIRHo5VnVJQTcxcmhDZkY3UA?oc=5",
+      "date": "Wed, 14 Oct 2026 08:30:00 GMT"
+    },
+    {
+      "title": "Airbus secures order for 75 Airbus A320neo family aircraft from ACG - AeroTime",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWnZPWFNWRnNtNjFxM09PZHV0SU1KYjVjdUhpM1JUdWFHVWRZOVE0alQ1TVNhNllvWEN2MDIzcVI3RTVlMGNoenRNN241QmtPZDJDSWJYMnJCM2J4c1Zkdk42V1JyVV9vb3ZzTDM2WDF2dmVaZ1FGNFEtVDNkaWRMRjVQUW1id25meHN5WnVCN2JSQdIBlwFBVV95cUxNenZlN3o3ajFHSzAwNXdFQ1F1d3pzd042eTFzNjZBOFRENk0yS1pJd2M2NDlUZUlDMGFaYnlQdDJETER3VWFTQ3JwVXZwOER5Rnp4b0hIZ3lSNHlKQ0hDNHF1UlY1NVZ3VTFzOVcxMC1QckxjRnpFTWhOWUxXcDh0X2VFVlk4SzlYTFk1bXJtcW9faGQxYkVn?oc=5",
+      "date": "Thu, 15 Oct 2026 11:29:43 GMT"
+    },
+    {
+      "title": "Cessna 210 Engine Separates After Takeoff - AVweb",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GMUNFZkNfN0NzbXU5T1FLZHlKM05SVnA2WnN4bzExaUNaLW9sMWtlWi11Zl9EM29rQ1R1b29TeXJHRi15UlRlZVdpVTVSZXNvcWtDMG5ma0IyTXdoMVU4dU9PdFZIMjNBcTA0S010ZzFrT1gwUmo3cWhLcGZEbUU?oc=5",
+      "date": "Thu, 15 Oct 2026 16:53:18 GMT"
+    },
+    {
+      "title": "Tesla Roadster Takes Flight - AVweb",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vM3NNTkNzYmtGT0F1cVgxZ29tbWRzNjNHQ2l3OGd4bEVvbVJUMkFLenhnS1Rfc0NMb3NRV3k4NThJdkZaTEYxZFpZNXBBWkFjNk1IVzM1a2dIVWVueFh2V3pTU29YdnQ1OXZKSg?oc=5",
+      "date": "Fri, 16 Oct 2026 15:07:42 GMT"
+    }
+  ],
+  "srilanka": [
+    {
+      "title": "SriLankan Airlines conducts A330 training programme for six Etihad Airways examiners - ET TravelWorld",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNZ0FOczg3LUMxbEdGQ0R4aFRMRTBHM0tTYUxzZndxODdHRGt5OTFTcGxmMG1JOWwwQWRTeFIxRy1sRkRDZkZoNGFmbl9IWWtyUFNLOW1uc0paaVZJSVYxVzgxX0dSLXFHWDIyaFlZNVViVUJKblBmMU96bnpGTmxHb0FoOXJKMGZncC0wQnJLVi1lSGRmLXQ4X1VsVUVWbEFKYTZrM2NrcURyb0pkWUVFdzFmUmlaU0hmOXVRc3o5S1pnYWZGbXpER3RYUXRUUGhpaVlIekgxOEdxdFBBTFJlXzhPbzN4dzVaS2VuYVlNNjFOS2hSOFBJaUp30gH-AUFVX3lxTE1QanVBc3h3QTlmOERMTWVjWWdsRGNUOTJ1OEk2LUNNMVdoTEhnb2VJRGd1UzA1YXZTSUU2ckJZalBxalBYTUNZY0FwbmpmWWhjTE1hMlVoUFFFaWhfWWFRc0ZacVdzYU9Cc3A1Zjc2TzRRdFZLVlk3YjllNEp5NGNIMm85WDBzbWE3X1p5V20zT2s3azItSVB5ODc3b2VOYWFuOXlROGxZMndOUzc1OTh0ZlBrTlpMeUkzV0Y1NlgtYTl4LUJxbnVaQ3J0cHg5cTdKVE5RZGF2NXpvYTJ3ci1MWFlyYTNpUXp5UjB4SVNyS2ZfREhtRVk0U2lnajFB?oc=5",
+      "date": "Mon, 12 Oct 2026 01:04:05 GMT"
+    },
+    {
+      "title": "Livery of the Week: SriLankan Airlines - AirlineGeeks.com",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLSVU2Tml3M2M4TF9nTkxFLVNuaWx5ZC1IcEYyRWJEbmNZMF9LX3JnTnZkbjJDd1Y2VXFrRU5qWFFibVhSWDNueVVCM2xNWnBocDlPVGlSbUVEWlltd0lTdHVLdC1LV1J2ZjViTzZWbFlpNmFzdUk2T2taWUlzOHM?oc=5",
+      "date": "Fri, 14 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "SriLankan appoints acting CEO as restructuring pressure mounts - Travel Weekly Asia",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV2YtbGZWYlBodGx6NFBERkUzZElZeUZ5OGdlem5leTJuN3Z0Z0Q0bFlQZWJNNjBWc1dMbVA1YTJpdFNjMWM0Ukh5THR2bDVDYkRzVGV3Wl9Xd1JXUHA5b21pZklQUFlvanplZzBJTWNicTJ0VXRwWU9jUC1OOVo2TnNwa1N1bFotXzRWSzJzTlRDODJSZFprRjE5bXVYb19ZT2daUHJqSnhKOG4ySWUtTUxJNW1yb2g5V19kSTZB?oc=5",
+      "date": "Mon, 21 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Press Release: SriLankan strengthens flight planning with Lido Flight 4D - Runway Girl",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWDQ0MWd1OFNiZDh0NDFOV2gzRDdqOEs2Vzd1NzVXZWdRUzV1aWZoWEJCNEdIRjJQSjlMTU9qSl9kSjJ4YWdwS0Y1OHM0cTdCeC10TC0yOEJNUTBXUGtieVEySXZHRGppamhSNVlhT2pEczBlZ1g0bW5SQXl6WDVIZEtSV2wxaGZNMUxaOXVmMmZDVFV4NWpOSkEwX29zUkhyQXpDSy1BblBYU2ptTDZR?oc=5",
+      "date": "Tue, 16 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "SriLankan Airlines extends suspension of Saudi flights until October 24 - Newswire",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa2h2RDMxaWdRLTVZZ2dRbE8yOERlOFRlS25vTUxsUUh6QTZyNVJ3TkhRb1JqRWJsZnhWMHVyM0xPbHczZVdTaWNkRTYyLXhpQTl2QkxBaUhEcTBLdEo1ODNqN0oyWkx4czA3T0hQbENuX0Jfalg0V253OGJiSU1RSjJ3TWx2dlVpSkF0MW1tSjF6dXBVYWNlZ05WSmxvNTQ3XzM2d0lJdldrMzQ?oc=5",
+      "date": "Fri, 16 Oct 2026 09:51:17 GMT"
+    },
+    {
+      "title": "Sri Lanka Government Pursues Strategy To Restructure Flag Carrier - Aviation Week",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc09IVGRSQ0RfcUxFb3FxeF9CUWdvSnJDMlRpSS11QWlra29jZ1hQX1Y2akU5M3NXTTlMM21iazB4NW5hTFJNMS1sdHNGaWcyekFGLVNBdVFjLXpKOXdxS19iOVZBOFVCaVoxLWJ2MXFEV3hBM3hQU1JIY1kxUXVRV1NmbTFBX2MtSnY5SHIzazJ0eVpRUERKc1F5RTJMWUdSSlFfckFBYTdkM0NIZlhHLW5TMDFUTWlIT3c?oc=5",
+      "date": "Mon, 17 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Lightning Strikes SriLankan A330 Engine, Sparking Flames And Mid-Air Turnback - Simple Flying",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcHR3NlF2ckxUY0dZNENRbmlMSWFJM05neUNpLTFxQ2hzMzZ2OWxpaWIxWmQ0dkluNFNCQUZFVC12c2J0T0pGTDJIb0ZrWER0cjhqNkRVVm1ST0VyZThBemhUejJWU0JsR0NDa2lyZ0dWQmUtWGFNa2Y1MmZmNE1sOWJPZHI?oc=5",
+      "date": "Sat, 13 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Gov't mulls partial sale of cash-strapped SriLankan Airlines - ch-aviation",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaGNVV1dVcGpyM20xdXFIMmREaTE4R0ZjbG5BaXVWTF83NDYtTTlyZjhWaG1OYm9IVlJiLWpmYXQ5MEc2V2k4SG1tZXJ4MXNlRU1pdklFNzI3ck4tRHJ1Si10aWZEN2RaelB5b2NFTktyczZJTXBIc1gtTFFMRjhISkhudnFqNWFneTRhM3RHdHpFVnlJM0VlMFhzLXBDVlBU?oc=5",
+      "date": "Mon, 15 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "SriLankan Airlines Flight Status (October 2026): Riyadh Flights Suspended - Wego Travel Blog",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE13blVVLXRiaGs4a1VTbG1xZXpWZlh4Zng4Z2NvaE9QY2FfMEVDY1VCMURaMm90ZDFyTXZWX3JZUGlGVkZGMm1VTEtzZXRsVnhYNV9KRW5UVDhkOS10SERVektBOFp2UQ?oc=5",
+      "date": "Tue, 13 Oct 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Comment: How Sri Lankan Airlines made FX its fifth highest ancillary revenue earner - Aviation Business News",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWDMwSkJxbmJvSkVEUmJ2SjNhOWFNamNUYzVSajIwT3Q4TjgxZHhDT2hJTm9aaF9MSW85NTA0NnlWWHp2cHhYVW0wQWc0WFVqTHhUNFlKeHgzVnhrSmdUOWxIX3VPNDZVZFVvZ2JKQkQ2UTFjMU1MQl9FYUZ5czJxU1RYLTFOZ0dNTVVCZ3ozcDlsTE1uN1pPUW9nS3V4cEQ4bGY5dkkxVlcxWG43SzRHNkFKODhGYmRYcmJiZWhxWHBXZUlfX0JVcnBGV3NMT2d5dTBSdllLblV0SExoWGdv?oc=5",
+      "date": "Thu, 02 Apr 2026 07:00:00 GMT"
+    }
+  ],
+  "srilanka_si": [
+    {
+      "title": "SriLankan Airlines conducts A330 training programme for six Etihad Airways examiners - ET TravelWorld",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNZ0FOczg3LUMxbEdGQ0R4aFRMRTBHM0tTYUxzZndxODdHRGt5OTFTcGxmMG1JOWwwQWRTeFIxRy1sRkRDZkZoNGFmbl9IWWtyUFNLOW1uc0paaVZJSVYxVzgxX0dSLXFHWDIyaFlZNVViVUJKblBmMU96bnpGTmxHb0FoOXJKMGZncC0wQnJLVi1lSGRmLXQ4X1VsVUVWbEFKYTZrM2NrcURyb0pkWUVFdzFmUmlaU0hmOXVRc3o5S1pnYWZGbXpER3RYUXRUUGhpaVlIekgxOEdxdFBBTFJlXzhPbzN4dzVaS2VuYVlNNjFOS2hSOFBJaUp30gH-AUFVX3lxTE1QanVBc3h3QTlmOERMTWVjWWdsRGNUOTJ1OEk2LUNNMVdoTEhnb2VJRGd1UzA1YXZTSUU2ckJZalBxalBYTUNZY0FwbmpmWWhjTE1hMlVoUFFFaWhfWWFRc0ZacVdzYU9Cc3A1Zjc2TzRRdFZLVlk3YjllNEp5NGNIMm85WDBzbWE3X1p5V20zT2s3azItSVB5ODc3b2VOYWFuOXlROGxZMndOUzc1OTh0ZlBrTlpMeUkzV0Y1NlgtYTl4LUJxbnVaQ3J0cHg5cTdKVE5RZGF2NXpvYTJ3ci1MWFlyYTNpUXp5UjB4SVNyS2ZfREhtRVk0U2lnajFB?oc=5",
+      "date": "Mon, 12 Oct 2026 01:04:05 GMT"
+    },
+    {
+      "title": "Livery of the Week: SriLankan Airlines - AirlineGeeks.com",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLSVU2Tml3M2M4TF9nTkxFLVNuaWx5ZC1IcEYyRWJEbmNZMF9LX3JnTnZkbjJDd1Y2VXFrRU5qWFFibVhSWDNueVVCM2xNWnBocDlPVGlSbUVEWlltd0lTdHVLdC1LV1J2ZjViTzZWbFlpNmFzdUk2T2taWUlzOHM?oc=5",
+      "date": "Fri, 14 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "SriLankan appoints acting CEO as restructuring pressure mounts - Travel Weekly Asia",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV2YtbGZWYlBodGx6NFBERkUzZElZeUZ5OGdlem5leTJuN3Z0Z0Q0bFlQZWJNNjBWc1dMbVA1YTJpdFNjMWM0Ukh5THR2bDVDYkRzVGV3Wl9Xd1JXUHA5b21pZklQUFlvanplZzBJTWNicTJ0VXRwWU9jUC1OOVo2TnNwa1N1bFotXzRWSzJzTlRDODJSZFprRjE5bXVYb19ZT2daUHJqSnhKOG4ySWUtTUxJNW1yb2g5V19kSTZB?oc=5",
+      "date": "Mon, 21 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Press Release: SriLankan strengthens flight planning with Lido Flight 4D - Runway Girl",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWDQ0MWd1OFNiZDh0NDFOV2gzRDdqOEs2Vzd1NzVXZWdRUzV1aWZoWEJCNEdIRjJQSjlMTU9qSl9kSjJ4YWdwS0Y1OHM0cTdCeC10TC0yOEJNUTBXUGtieVEySXZHRGppamhSNVlhT2pEczBlZ1g0bW5SQXl6WDVIZEtSV2wxaGZNMUxaOXVmMmZDVFV4NWpOSkEwX29zUkhyQXpDSy1BblBYU2ptTDZR?oc=5",
+      "date": "Tue, 16 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "SriLankan Airlines extends suspension of Saudi flights until October 24 - Newswire",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa2h2RDMxaWdRLTVZZ2dRbE8yOERlOFRlS25vTUxsUUh6QTZyNVJ3TkhRb1JqRWJsZnhWMHVyM0xPbHczZVdTaWNkRTYyLXhpQTl2QkxBaUhEcTBLdEo1ODNqN0oyWkx4czA3T0hQbENuX0Jfalg0V253OGJiSU1RSjJ3TWx2dlVpSkF0MW1tSjF6dXBVYWNlZ05WSmxvNTQ3XzM2d0lJdldrMzQ?oc=5",
+      "date": "Fri, 16 Oct 2026 09:51:17 GMT"
+    },
+    {
+      "title": "Sri Lanka Government Pursues Strategy To Restructure Flag Carrier - Aviation Week",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc09IVGRSQ0RfcUxFb3FxeF9CUWdvSnJDMlRpSS11QWlra29jZ1hQX1Y2akU5M3NXTTlMM21iazB4NW5hTFJNMS1sdHNGaWcyekFGLVNBdVFjLXpKOXdxS19iOVZBOFVCaVoxLWJ2MXFEV3hBM3hQU1JIY1kxUXVRV1NmbTFBX2MtSnY5SHIzazJ0eVpRUERKc1F5RTJMWUdSSlFfckFBYTdkM0NIZlhHLW5TMDFUTWlIT3c?oc=5",
+      "date": "Mon, 17 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Lightning Strikes SriLankan A330 Engine, Sparking Flames And Mid-Air Turnback - Simple Flying",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcHR3NlF2ckxUY0dZNENRbmlMSWFJM05neUNpLTFxQ2hzMzZ2OWxpaWIxWmQ0dkluNFNCQUZFVC12c2J0T0pGTDJIb0ZrWER0cjhqNkRVVm1ST0VyZThBemhUejJWU0JsR0NDa2lyZ0dWQmUtWGFNa2Y1MmZmNE1sOWJPZHI?oc=5",
+      "date": "Sat, 13 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Gov't mulls partial sale of cash-strapped SriLankan Airlines - ch-aviation",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaGNVV1dVcGpyM20xdXFIMmREaTE4R0ZjbG5BaXVWTF83NDYtTTlyZjhWaG1OYm9IVlJiLWpmYXQ5MEc2V2k4SG1tZXJ4MXNlRU1pdklFNzI3ck4tRHJ1Si10aWZEN2RaelB5b2NFTktyczZJTXBIc1gtTFFMRjhISkhudnFqNWFneTRhM3RHdHpFVnlJM0VlMFhzLXBDVlBU?oc=5",
+      "date": "Mon, 15 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "SriLankan Airlines Flight Status (October 2026): Riyadh Flights Suspended - Wego Travel Blog",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE13blVVLXRiaGs4a1VTbG1xZXpWZlh4Zng4Z2NvaE9QY2FfMEVDY1VCMURaMm90ZDFyTXZWX3JZUGlGVkZGMm1VTEtzZXRsVnhYNV9KRW5UVDhkOS10SERVektBOFp2UQ?oc=5",
+      "date": "Tue, 13 Oct 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Comment: How Sri Lankan Airlines made FX its fifth highest ancillary revenue earner - Aviation Business News",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWDMwSkJxbmJvSkVEUmJ2SjNhOWFNamNUYzVSajIwT3Q4TjgxZHhDT2hJTm9aaF9MSW85NTA0NnlWWHp2cHhYVW0wQWc0WFVqTHhUNFlKeHgzVnhrSmdUOWxIX3VPNDZVZFVvZ2JKQkQ2UTFjMU1MQl9FYUZ5czJxU1RYLTFOZ0dNTVVCZ3ozcDlsTE1uN1pPUW9nS3V4cEQ4bGY5dkkxVlcxWG43SzRHNkFKODhGYmRYcmJiZWhxWHBXZUlfX0JVcnBGV3NMT2d5dTBSdllLblV0SExoWGdv?oc=5",
+      "date": "Thu, 02 Apr 2026 07:00:00 GMT"
+    }
+  ],
+  "airlines": [
+    {
+      "title": "American Airlines grows Venezuela network with first-ever service to Barcelona - American Airlines",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQU09uS040QzNlMmVjU1cxUG4xend1ZUFWX3o0ZGFVMTFfRndqX1c2QVVIOE10aTNhQ0NsaTNjY1ZBbDQ1b2l1UFRkT2FiUlhtdkN0LTBkOUNERFQyWloweUtmNGpaVDZUZHFYWEEzbV82eHBQLVNRa1o1LWpRSEVsMjR5eE5GVDlDVWk2enFManZmN1l1TjJlcm55dFJ5ZDd5TmtlS25qM1Uwa3JkdGNVQ254WFU4em5jUmpPQ3VzUlhWMnc5VEVDUlZienU?oc=5",
+      "date": "Fri, 16 Oct 2026 14:00:23 GMT"
+    },
+    {
+      "title": "American Airlines is canceling all flights to these 3 major cities: Here’s why - NJ.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNW85eElTMWV5dTM1OUVCRnktODFFQm1HSHZYWTdjVXdzNFh4Q1JjeXBvbHk4emZsbXFnZFZsTWR5NGlRbG9KaDhmaTFLWHlMeFpHdzJ5eG8wR3A5TDdvTmtoQXViRU5wcGd6Ny13Sl9zR2tJX2Z2ODF2UkJ4cHhmSlItcFhWMG5JcmU3ajVNYWg3U25YOXZhOHduVWxaLWpxOGUzTHc1LTF4UnQ3am9jVjFBNNIBxwFBVV95cUxPaE84MlJXZnl6d2FiWi1rVl9zMHpUSGZXWE1PRE51THFiQm1iYm9YakRud3pHZ09HY3Zsc0VyMU9HU2xXc3k2TmF5ak5zMm5KWW9CM0dyUWNBQkVGNWozQkU2dWlDNElNSGJ1aGhUOVkyM2M5STZXMXhtSThDVC16T0VjQXVrVlRQQXBsTW04ZzhrTFN2a2prX1NBNEdBSUUwSkx6VFhoZFFma3otUEdLT2JlcGZ6c3I0ZVczc1hlRHpZaWd0RTBr?oc=5",
+      "date": "Thu, 15 Oct 2026 15:57:00 GMT"
+    },
+    {
+      "title": "Bedbugs found in plane's economy seats force major airline to cancel flight - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQjJrQzdSYWtYYkRUZkZ4NDZwNXJfLU50WElaQmVDcy1zRXFiWVl1SXVsODhBVlUweFNrZlg3Z0VvQWc4d1JxRjVNbkYwd1RHdkRmc2ZXTS1CQk01NXh4dnJDSEtKaFZPTzdSanpTRVhFVzJSQ2p5MmZoU0ZkZmdzY2J3bDJvdWg1d245dm5DamVRcWphQUxLZDc3Qy1OVTdJ0gGmAUFVX3lxTE41ZmdwelFFRjhwOElYZ0x6VlJhQlg4YWJjVi0zYjNoS19GeVpKZUFqcC1ZRG9pTWItellkWC1DUTRQZUd6c05TTkd2VFlkbXc3b2QyMHVOVWhKdkNCem1Jd19SN1NUUjRTZEdyMzZ6enBpRDFudDhleUVERWZaY1REbUZrTjRqdFJPZXM4OGJJX1Q1RHBIbWdUVThoNjl1ei13QXhyU1E?oc=5",
+      "date": "Sat, 17 Oct 2026 00:15:12 GMT"
+    },
+    {
+      "title": "Southwest is overhauling its frequent flyer program. Here's what's changing - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pbDNsc3RZMjZQX2xEeGFOemVfM1lHRGVzRGF3VFYxYl9vVTZPbEwxX01qcE1fU0xPVE12dTlEU3ZPT2JwaXJWOW9HcFVkUDNET2xJVHZ4am1BNnNNNzdPSExCN0VBV013emlXY1JjRWRNS0FBUXJSQ2t4aXVwQdIBgwFBVV95cUxOdWN0Y0hwN2FMQkR4Wk54SUoyZkhCUGF3UlNhUlJwRGFaYld6WFJieW1NV21wd3p3dmpYQVZGdFI5VWdyanNUS1dYMXV6Y2VtckJOSW9HRGlMMEhBYnA1b0tTWEhUSzdab3ZQTWFPR2hqTlVZN3p3OFlGbFRHc1pfWWM3RQ?oc=5",
+      "date": "Thu, 15 Oct 2026 14:25:01 GMT"
+    },
+    {
+      "title": "Southwest, United Shake Up Their Frequent-Flier Programs - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV2ZodzFFM2RJNW5Gb2w2eHo2alFOY1hZMl9sc2ZuclNlcThJYjlSNlZhVEpPYW05WUFQVE5BOTZHUkJNM2llbGgwc2E5Zk5LbDZ0Wkg4dnV3M1N6N3Uwa0QwUktzVHd0QVk0UHZRLVlOTlJYMTJnV2tOc3Z6TGNCVXVkTjI2UWUwblNrOUJJbGZOTk1OM2k3M3BDa1BaM1M2LVln?oc=5",
+      "date": "Fri, 16 Oct 2026 12:25:00 GMT"
+    },
+    {
+      "title": "Southwest flyers: What to know about the airline’s new Rapid Rewards tiers - Dallas News",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQ2h3bkUyWW5lRHk1ZVoxTDFOcHNwQXpiMHlXa1k1cHZBTG9qVG1FY3pqNFhYSGx0SjRnc0tlTzIxQWRFOWFSMG11RDdWb1dxZkw0Qnp1N1d4eW1lTC1nRjloOTMyVzlTalYtUjc5alhibm53NzJQOXp1QUI0eF9HdjB2TURmMi1GR2hSbERna3dCd0Y5U1gxdFprT2otRUZVSXpEbnhFZkFVWk5nZmE5aUxB?oc=5",
+      "date": "Fri, 16 Oct 2026 16:23:33 GMT"
+    },
+    {
+      "title": "US lifts curbs on Mexican airlines after aviation dispute - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbzZ6N25RSmhXZnFndUpRMnlFOEMzcEtFazRJRmRJZWc5eS1tOVdFNXVCNlg0eUxSUmI0dVppb05CV1ROdUpJYTVtMTk5cG8yNHZ5ekdxQkVFWDhzeVNHTHUtcXBBM2tFLTZwZ3hOMHozNXZEdDF4RU1VdGJDTTFHZUNjMXR4ZWxSdDVFaEQ5Zl82UHl0YjRYMzhGMWdiRjdXTmJxbDhBVQ?oc=5",
+      "date": "Fri, 16 Oct 2026 23:05:43 GMT"
+    },
+    {
+      "title": "RDU flight delays cost travelers hundreds. How do they get that money back? - WRAL",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQLTdJenhGSGlqbkhvWmtjVnMyWWpDUlBuMG5Pb3A4Z2JHUHV4RUJoai1zLVNYOXp6YnBkM3BjM0JGeE1kXzBkeFNtaktYczR6ZmhYdmZRRWlsMlZnaE0xbEdOX21ma1ZiR2pnTW9HaXoxZTYtbTBRWTBvR1VDM0dLc19NQWtxN3dQX2dydFVnRnlSUkkwQmpJVnYwX0o4WEJLWjV6Mw?oc=5",
+      "date": "Fri, 16 Oct 2026 17:33:32 GMT"
+    },
+    {
+      "title": "Lufthansa says goodbye to the A340-600 - Flightradar24",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU1dlUnhmakI0SjliSjNNVzIxWlptd2xMbWhVaWNpbnYwN2YwZFg0MXBZQTkwZk1ycy1tOXg4dHE3c1RLelI5TzBJakFxS29KeU1UbVFEdzg2R2ZpQ3Q4cjdxMmU5OVFtNEtXUUEzcjV2dUVpaGJUdU1GZ2pKWldGM3JyMzMxR3FzX1FQOVl0VXdNRjBzSXFqRjQyRm1iZGY1S2Nn?oc=5",
+      "date": "Fri, 16 Oct 2026 14:11:35 GMT"
+    },
+    {
+      "title": "American Airlines flight makes emergency return to Chicago after smoke in cabin - NBC 5 Chicago",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ0wwQ0JZN25pZjBrSG9URHB2RUpHVXlKWTM0RUJQb1YxSFQ3NmZYNW45YnptMUdhZ2xqbjE4YlN0N1hjMWZTNGgtbFI4OXRMMzRqX1FJVEdsWXRWMTZIejlHYVR1M2wySkl4bmdqaXAzcUdlU0ZYS19hRmhwbU0tVm9xVmRNNUduMkg5dGE1LXdhY21LQTRKdWtUZ0pVS1pQc2tfRlg5bm1rQWxvclBFVW5xRGx5SFByR2ltS2J3aXVic0tP0gHMAUFVX3lxTE9VdlBfem1TN3B5emtHUll3S1BTMHR1V1lrNWVhU1RpNEJTVmN6UXJOMjAyXzBSdUxqMG1GaWhuVXJhREt4cU5lcUJYelZ4Si1EZC16S1VhaDRhU29XN213T0JuTk9ORk9uTkh4QVhnN3cteUEwNnZVWGxDbjIySGx0VlNaM3QzWEt4OXl3U3gxXzBhSF9Ua1RXMTV2TGZpLXdDeEF4UGpIOWdTWV9QdllSdTlCbnQtdUU1cFpXNTQwbUhTZTdTazVRSTNidA?oc=5",
+      "date": "Fri, 16 Oct 2026 19:08:12 GMT"
+    }
+  ],
+  "airlines_si": [
+    {
+      "title": "American Airlines grows Venezuela network with first-ever service to Barcelona - American Airlines",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQU09uS040QzNlMmVjU1cxUG4xend1ZUFWX3o0ZGFVMTFfRndqX1c2QVVIOE10aTNhQ0NsaTNjY1ZBbDQ1b2l1UFRkT2FiUlhtdkN0LTBkOUNERFQyWloweUtmNGpaVDZUZHFYWEEzbV82eHBQLVNRa1o1LWpRSEVsMjR5eE5GVDlDVWk2enFManZmN1l1TjJlcm55dFJ5ZDd5TmtlS25qM1Uwa3JkdGNVQ254WFU4em5jUmpPQ3VzUlhWMnc5VEVDUlZienU?oc=5",
+      "date": "Fri, 16 Oct 2026 14:00:23 GMT"
+    },
+    {
+      "title": "American Airlines is canceling all flights to these 3 major cities: Here’s why - NJ.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNW85eElTMWV5dTM1OUVCRnktODFFQm1HSHZYWTdjVXdzNFh4Q1JjeXBvbHk4emZsbXFnZFZsTWR5NGlRbG9KaDhmaTFLWHlMeFpHdzJ5eG8wR3A5TDdvTmtoQXViRU5wcGd6Ny13Sl9zR2tJX2Z2ODF2UkJ4cHhmSlItcFhWMG5JcmU3ajVNYWg3U25YOXZhOHduVWxaLWpxOGUzTHc1LTF4UnQ3am9jVjFBNNIBxwFBVV95cUxPaE84MlJXZnl6d2FiWi1rVl9zMHpUSGZXWE1PRE51THFiQm1iYm9YakRud3pHZ09HY3Zsc0VyMU9HU2xXc3k2TmF5ak5zMm5KWW9CM0dyUWNBQkVGNWozQkU2dWlDNElNSGJ1aGhUOVkyM2M5STZXMXhtSThDVC16T0VjQXVrVlRQQXBsTW04ZzhrTFN2a2prX1NBNEdBSUUwSkx6VFhoZFFma3otUEdLT2JlcGZ6c3I0ZVczc1hlRHpZaWd0RTBr?oc=5",
+      "date": "Thu, 15 Oct 2026 15:57:00 GMT"
+    },
+    {
+      "title": "Bedbugs found in plane's economy seats force major airline to cancel flight - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQjJrQzdSYWtYYkRUZkZ4NDZwNXJfLU50WElaQmVDcy1zRXFiWVl1SXVsODhBVlUweFNrZlg3Z0VvQWc4d1JxRjVNbkYwd1RHdkRmc2ZXTS1CQk01NXh4dnJDSEtKaFZPTzdSanpTRVhFVzJSQ2p5MmZoU0ZkZmdzY2J3bDJvdWg1d245dm5DamVRcWphQUxLZDc3Qy1OVTdJ0gGmAUFVX3lxTE41ZmdwelFFRjhwOElYZ0x6VlJhQlg4YWJjVi0zYjNoS19GeVpKZUFqcC1ZRG9pTWItellkWC1DUTRQZUd6c05TTkd2VFlkbXc3b2QyMHVOVWhKdkNCem1Jd19SN1NUUjRTZEdyMzZ6enBpRDFudDhleUVERWZaY1REbUZrTjRqdFJPZXM4OGJJX1Q1RHBIbWdUVThoNjl1ei13QXhyU1E?oc=5",
+      "date": "Sat, 17 Oct 2026 00:15:12 GMT"
+    },
+    {
+      "title": "Southwest is overhauling its frequent flyer program. Here's what's changing - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pbDNsc3RZMjZQX2xEeGFOemVfM1lHRGVzRGF3VFYxYl9vVTZPbEwxX01qcE1fU0xPVE12dTlEU3ZPT2JwaXJWOW9HcFVkUDNET2xJVHZ4am1BNnNNNzdPSExCN0VBV013emlXY1JjRWRNS0FBUXJSQ2t4aXVwQdIBgwFBVV95cUxOdWN0Y0hwN2FMQkR4Wk54SUoyZkhCUGF3UlNhUlJwRGFaYld6WFJieW1NV21wd3p3dmpYQVZGdFI5VWdyanNUS1dYMXV6Y2VtckJOSW9HRGlMMEhBYnA1b0tTWEhUSzdab3ZQTWFPR2hqTlVZN3p3OFlGbFRHc1pfWWM3RQ?oc=5",
+      "date": "Thu, 15 Oct 2026 14:25:01 GMT"
+    },
+    {
+      "title": "Southwest, United Shake Up Their Frequent-Flier Programs - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV2ZodzFFM2RJNW5Gb2w2eHo2alFOY1hZMl9sc2ZuclNlcThJYjlSNlZhVEpPYW05WUFQVE5BOTZHUkJNM2llbGgwc2E5Zk5LbDZ0Wkg4dnV3M1N6N3Uwa0QwUktzVHd0QVk0UHZRLVlOTlJYMTJnV2tOc3Z6TGNCVXVkTjI2UWUwblNrOUJJbGZOTk1OM2k3M3BDa1BaM1M2LVln?oc=5",
+      "date": "Fri, 16 Oct 2026 12:25:00 GMT"
+    },
+    {
+      "title": "Southwest flyers: What to know about the airline’s new Rapid Rewards tiers - Dallas News",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQ2h3bkUyWW5lRHk1ZVoxTDFOcHNwQXpiMHlXa1k1cHZBTG9qVG1FY3pqNFhYSGx0SjRnc0tlTzIxQWRFOWFSMG11RDdWb1dxZkw0Qnp1N1d4eW1lTC1nRjloOTMyVzlTalYtUjc5alhibm53NzJQOXp1QUI0eF9HdjB2TURmMi1GR2hSbERna3dCd0Y5U1gxdFprT2otRUZVSXpEbnhFZkFVWk5nZmE5aUxB?oc=5",
+      "date": "Fri, 16 Oct 2026 16:23:33 GMT"
+    },
+    {
+      "title": "US lifts curbs on Mexican airlines after aviation dispute - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbzZ6N25RSmhXZnFndUpRMnlFOEMzcEtFazRJRmRJZWc5eS1tOVdFNXVCNlg0eUxSUmI0dVppb05CV1ROdUpJYTVtMTk5cG8yNHZ5ekdxQkVFWDhzeVNHTHUtcXBBM2tFLTZwZ3hOMHozNXZEdDF4RU1VdGJDTTFHZUNjMXR4ZWxSdDVFaEQ5Zl82UHl0YjRYMzhGMWdiRjdXTmJxbDhBVQ?oc=5",
+      "date": "Fri, 16 Oct 2026 23:05:43 GMT"
+    },
+    {
+      "title": "RDU flight delays cost travelers hundreds. How do they get that money back? - WRAL",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQLTdJenhGSGlqbkhvWmtjVnMyWWpDUlBuMG5Pb3A4Z2JHUHV4RUJoai1zLVNYOXp6YnBkM3BjM0JGeE1kXzBkeFNtaktYczR6ZmhYdmZRRWlsMlZnaE0xbEdOX21ma1ZiR2pnTW9HaXoxZTYtbTBRWTBvR1VDM0dLc19NQWtxN3dQX2dydFVnRnlSUkkwQmpJVnYwX0o4WEJLWjV6Mw?oc=5",
+      "date": "Fri, 16 Oct 2026 17:33:32 GMT"
+    },
+    {
+      "title": "Lufthansa says goodbye to the A340-600 - Flightradar24",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU1dlUnhmakI0SjliSjNNVzIxWlptd2xMbWhVaWNpbnYwN2YwZFg0MXBZQTkwZk1ycy1tOXg4dHE3c1RLelI5TzBJakFxS29KeU1UbVFEdzg2R2ZpQ3Q4cjdxMmU5OVFtNEtXUUEzcjV2dUVpaGJUdU1GZ2pKWldGM3JyMzMxR3FzX1FQOVl0VXdNRjBzSXFqRjQyRm1iZGY1S2Nn?oc=5",
+      "date": "Fri, 16 Oct 2026 14:11:35 GMT"
+    },
+    {
+      "title": "American Airlines flight makes emergency return to Chicago after smoke in cabin - NBC 5 Chicago",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ0wwQ0JZN25pZjBrSG9URHB2RUpHVXlKWTM0RUJQb1YxSFQ3NmZYNW45YnptMUdhZ2xqbjE4YlN0N1hjMWZTNGgtbFI4OXRMMzRqX1FJVEdsWXRWMTZIejlHYVR1M2wySkl4bmdqaXAzcUdlU0ZYS19hRmhwbU0tVm9xVmRNNUduMkg5dGE1LXdhY21LQTRKdWtUZ0pVS1pQc2tfRlg5bm1rQWxvclBFVW5xRGx5SFByR2ltS2J3aXVic0tP0gHMAUFVX3lxTE9VdlBfem1TN3B5emtHUll3S1BTMHR1V1lrNWVhU1RpNEJTVmN6UXJOMjAyXzBSdUxqMG1GaWhuVXJhREt4cU5lcUJYelZ4Si1EZC16S1VhaDRhU29XN213T0JuTk9ORk9uTkh4QVhnN3cteUEwNnZVWGxDbjIySGx0VlNaM3QzWEt4OXl3U3gxXzBhSF9Ua1RXMTV2TGZpLXdDeEF4UGpIOWdTWV9QdllSdTlCbnQtdUU1cFpXNTQwbUhTZTdTazVRSTNidA?oc=5",
+      "date": "Fri, 16 Oct 2026 19:08:12 GMT"
+    }
+  ],
+  "aircraft": [
+    {
+      "title": "Thrive Unveils First Fractional Fleet Aircraft - Aviation International News",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYTJLWkd6V2hyM0J5N3E4RTUxQlJWa29aRlp4OXZybW1WczhYMlJ3cS1JTjlOckVXS3ZUd09ZOHZuMHJ2UzdPUFpfRWEwTlQ4S0hmVEdFZTEzdUZxTGwxdGdRS1FSOFNCUHRGWXpWekNYM2xVZGhSQ3ljeDVRSEw4RGJaa0dnODFDbDF3R3hjOW50dWxyQlRuUnFCOW9hb24tUXI2aG9xTy04RGtFZWp1cnd6XzliQQ?oc=5",
+      "date": "Sat, 17 Oct 2026 02:24:42 GMT"
+    },
+    {
+      "title": "Aviation Capital Group Secures Landmark Order for 75 Airbus A320neo Aircraft - Aviation News.eu",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPemFTUGE1UHMxT0ZvT0RGWkJLTlFXS2xPbzhOQmZWaXVzcW9RY242X0VwMHhzeTVWbS1Ra1c1UjVZV21ONmZTRWUwQW9vd1ViMW01MmNtZktnMVMyeV9TcVd0ZW1Nc0VjTUkyWHV5TEpNSnM1eGt0SURyR1pBblY2YklpbVBHVFJrcjhVYkUzUEx6NlJqaTFUVDNYVzBoWHdTT0RsaVFTaGNzdU5zS20xMGpoMkE?oc=5",
+      "date": "Fri, 16 Oct 2026 20:41:00 GMT"
+    },
+    {
+      "title": "Aviation Capital Group Buys 75 Airbus A320neo-Family Aircraft - Aviation Week",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQmk4dTZncjVzbm1FOHlvU0JCVWxXQnd2NDlKcks3X3hwSHUwT2J2Um15RDFLcDZMTkJ6WGhNcG01X1JzQWhxZlVjTE5JdllkWjZ6Z3FGTHZuLWM0TU9oMzVFOUZPOFdURTBuSVhYWEFodDhHQ1liUXJYMmtwSGJwc3dvUy0xSW5rVVA2NUZJYTRpcHJOWThNT3pwc0NWaHRYQ1I4Ym1haTIzZnAyOVYwMFNfbFJxMmNV?oc=5",
+      "date": "Fri, 16 Oct 2026 15:18:46 GMT"
+    },
+    {
+      "title": "Bedbugs found in plane's economy seats force major airline to cancel flight - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQjJrQzdSYWtYYkRUZkZ4NDZwNXJfLU50WElaQmVDcy1zRXFiWVl1SXVsODhBVlUweFNrZlg3Z0VvQWc4d1JxRjVNbkYwd1RHdkRmc2ZXTS1CQk01NXh4dnJDSEtKaFZPTzdSanpTRVhFVzJSQ2p5MmZoU0ZkZmdzY2J3bDJvdWg1d245dm5DamVRcWphQUxLZDc3Qy1OVTdJ0gGmAUFVX3lxTE41ZmdwelFFRjhwOElYZ0x6VlJhQlg4YWJjVi0zYjNoS19GeVpKZUFqcC1ZRG9pTWItellkWC1DUTRQZUd6c05TTkd2VFlkbXc3b2QyMHVOVWhKdkNCem1Jd19SN1NUUjRTZEdyMzZ6enBpRDFudDhleUVERWZaY1REbUZrTjRqdFJPZXM4OGJJX1Q1RHBIbWdUVThoNjl1ei13QXhyU1E?oc=5",
+      "date": "Sat, 17 Oct 2026 00:15:12 GMT"
+    },
+    {
+      "title": "Hangar Flying Updates Panel Designer For Experimental Aircraft - General Aviation News",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbmoyZ0VjZVhYcXhWM1ZvbHg4Zi1HVDdCelB5b0R4RTVQbWF2ZVJ6QmZGLWttSXFqSGxzdm1STVVFeVU3S0ctck5HYnBITGdMcTFYT2puSWhpcGF1ZzRXUVF1TkwzY0tOTnJyd3RHUHNBME9pOUxXdy1OV210NGUxeUlwNGR3MmFWb01ycDlKSWc1UHNmVE9kV0dpVWJCM0dPOEQwZnNHd3dWUQ?oc=5",
+      "date": "Fri, 16 Oct 2026 14:07:00 GMT"
+    },
+    {
+      "title": "Airbus wins order for 75 A320neo Family aircraft from Aviation Capital Group - Aerospace Global News",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVkliLWVRMFVGbHM3UHpWUV9UN1Byek1uY0VVa0VVZmRINUI5SnpjOFA3clkwYTRNV1FUQlpiY1liX2NFZ3g5UExUdmxXX0VmMTRyYTd0ZVZtQ3dCOUVDdHpMZTZoaXRuR2pBbEhoeFBrSkRmaTNBYVQ1VndsMGo0N051RmZaODNC?oc=5",
+      "date": "Fri, 16 Oct 2026 16:49:00 GMT"
+    },
+    {
+      "title": "Aviation Capital Group adds a further 75 Airbus A320 family aircraft to its backlog - Economy Class & Beyond -",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQ0drRzZlRkZBUGJ5ZDdYS2pGbDh2Rzdrc05FMUVJNTVHQnBGc3JfTUI4Y3hLenJWYWg2ejJKSTI5MEp1b3l2MFdfeUxJTjV3NkQ3Vkl4WXNPMXYxdV9ZNUtiMTJ1em8za05xbGtNdVZCSmUya0IxaFdBV2x1eFZrWnFLblJXMmJ4UkZYN2VURkQ3OFhnQjFIVnlrUjRCdGRPWDJMRTNJSXhMNU1XQTRqY3dJMWFtNzhpRFJaVDhRVHNhd25lYU9DbjZQVF90T0hfQ2ViUnc3TGVmdw?oc=5",
+      "date": "Fri, 16 Oct 2026 13:42:55 GMT"
+    },
+    {
+      "title": "Saudi Airlines Rush to Save Scores of Planes From a War Zone - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeGNUdXZMUTdxVTRMMWR6VlF2bWJYVEpTVVJ5RWxWU216ZExnenZqZUNUYlZMZ2RiWlY5Q0xRbXVra20wX2d1TE8wY2RkbERLQmIyUFZvc3hJZU1JQkpkU3BPRkJ5MUdRV0dKNGlzYW02US1IVWM4SmJzSWdzRU1uRFJkcHM4dWI4NzAtcG9xOHJJVl9TaGNYQlpvbDhLQ2xPRXlQYlh1QXdwNEU?oc=5",
+      "date": "Wed, 14 Oct 2026 17:49:00 GMT"
+    },
+    {
+      "title": "Lufthansa Adds Extra Fuel Amid Supply Concerns - Travel Radar",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9FMVhIckJ0MWQtdzVjekJHSE1SY2Y0YVE2d3BjMGRHNDFvYWFEOEpkci1odGUxWEE5NTdRS0xTeTU5aWtEYm5fSEgyeDY1VHM4QUVteDc1aHBKMExsdUlUU0o2Y2pnRTlkS01sMjRSS0hjanpaa3FKNm1iZmU?oc=5",
+      "date": "Fri, 16 Oct 2026 22:33:46 GMT"
+    },
+    {
+      "title": "Aviation Capital Group orders 75 Airbus A320neo aircraft - Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWxxRlhQbGd2WEotR3dTeDJKNUJKenVva0tEcjJ2bEY4TTlJLTBEYjJhOXRtbDJQbHdqSGFzcVRqaUZMY0RBSVhUa0RKREpNN0RHWEdxNGlpTkM3Nm9rSzRmbnFCTGJYQWlkbFBrNnZQa29pZ3Q4MHRvV01ER2dvckpOUjdPMzFwcUM5MG5YTWVoWE92Q2FuY0FqTGlKZTZNTHNpOWtXb0I2eHJzX3RtUU5ETU43VVNmeUE?oc=5",
+      "date": "Fri, 16 Oct 2026 09:07:38 GMT"
+    }
+  ],
+  "aircraft_si": [
+    {
+      "title": "Thrive Unveils First Fractional Fleet Aircraft - Aviation International News",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYTJLWkd6V2hyM0J5N3E4RTUxQlJWa29aRlp4OXZybW1WczhYMlJ3cS1JTjlOckVXS3ZUd09ZOHZuMHJ2UzdPUFpfRWEwTlQ4S0hmVEdFZTEzdUZxTGwxdGdRS1FSOFNCUHRGWXpWekNYM2xVZGhSQ3ljeDVRSEw4RGJaa0dnODFDbDF3R3hjOW50dWxyQlRuUnFCOW9hb24tUXI2aG9xTy04RGtFZWp1cnd6XzliQQ?oc=5",
+      "date": "Sat, 17 Oct 2026 02:24:42 GMT"
+    },
+    {
+      "title": "Aviation Capital Group Secures Landmark Order for 75 Airbus A320neo Aircraft - Aviation News.eu",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPemFTUGE1UHMxT0ZvT0RGWkJLTlFXS2xPbzhOQmZWaXVzcW9RY242X0VwMHhzeTVWbS1Ra1c1UjVZV21ONmZTRWUwQW9vd1ViMW01MmNtZktnMVMyeV9TcVd0ZW1Nc0VjTUkyWHV5TEpNSnM1eGt0SURyR1pBblY2YklpbVBHVFJrcjhVYkUzUEx6NlJqaTFUVDNYVzBoWHdTT0RsaVFTaGNzdU5zS20xMGpoMkE?oc=5",
+      "date": "Fri, 16 Oct 2026 20:41:00 GMT"
+    },
+    {
+      "title": "Aviation Capital Group Buys 75 Airbus A320neo-Family Aircraft - Aviation Week",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQmk4dTZncjVzbm1FOHlvU0JCVWxXQnd2NDlKcks3X3hwSHUwT2J2Um15RDFLcDZMTkJ6WGhNcG01X1JzQWhxZlVjTE5JdllkWjZ6Z3FGTHZuLWM0TU9oMzVFOUZPOFdURTBuSVhYWEFodDhHQ1liUXJYMmtwSGJwc3dvUy0xSW5rVVA2NUZJYTRpcHJOWThNT3pwc0NWaHRYQ1I4Ym1haTIzZnAyOVYwMFNfbFJxMmNV?oc=5",
+      "date": "Fri, 16 Oct 2026 15:18:46 GMT"
+    },
+    {
+      "title": "Bedbugs found in plane's economy seats force major airline to cancel flight - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQjJrQzdSYWtYYkRUZkZ4NDZwNXJfLU50WElaQmVDcy1zRXFiWVl1SXVsODhBVlUweFNrZlg3Z0VvQWc4d1JxRjVNbkYwd1RHdkRmc2ZXTS1CQk01NXh4dnJDSEtKaFZPTzdSanpTRVhFVzJSQ2p5MmZoU0ZkZmdzY2J3bDJvdWg1d245dm5DamVRcWphQUxLZDc3Qy1OVTdJ0gGmAUFVX3lxTE41ZmdwelFFRjhwOElYZ0x6VlJhQlg4YWJjVi0zYjNoS19GeVpKZUFqcC1ZRG9pTWItellkWC1DUTRQZUd6c05TTkd2VFlkbXc3b2QyMHVOVWhKdkNCem1Jd19SN1NUUjRTZEdyMzZ6enBpRDFudDhleUVERWZaY1REbUZrTjRqdFJPZXM4OGJJX1Q1RHBIbWdUVThoNjl1ei13QXhyU1E?oc=5",
+      "date": "Sat, 17 Oct 2026 00:15:12 GMT"
+    },
+    {
+      "title": "Hangar Flying Updates Panel Designer For Experimental Aircraft - General Aviation News",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbmoyZ0VjZVhYcXhWM1ZvbHg4Zi1HVDdCelB5b0R4RTVQbWF2ZVJ6QmZGLWttSXFqSGxzdm1STVVFeVU3S0ctck5HYnBITGdMcTFYT2puSWhpcGF1ZzRXUVF1TkwzY0tOTnJyd3RHUHNBME9pOUxXdy1OV210NGUxeUlwNGR3MmFWb01ycDlKSWc1UHNmVE9kV0dpVWJCM0dPOEQwZnNHd3dWUQ?oc=5",
+      "date": "Fri, 16 Oct 2026 14:07:00 GMT"
+    },
+    {
+      "title": "Airbus wins order for 75 A320neo Family aircraft from Aviation Capital Group - Aerospace Global News",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVkliLWVRMFVGbHM3UHpWUV9UN1Byek1uY0VVa0VVZmRINUI5SnpjOFA3clkwYTRNV1FUQlpiY1liX2NFZ3g5UExUdmxXX0VmMTRyYTd0ZVZtQ3dCOUVDdHpMZTZoaXRuR2pBbEhoeFBrSkRmaTNBYVQ1VndsMGo0N051RmZaODNC?oc=5",
+      "date": "Fri, 16 Oct 2026 16:49:00 GMT"
+    },
+    {
+      "title": "Aviation Capital Group adds a further 75 Airbus A320 family aircraft to its backlog - Economy Class & Beyond -",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQ0drRzZlRkZBUGJ5ZDdYS2pGbDh2Rzdrc05FMUVJNTVHQnBGc3JfTUI4Y3hLenJWYWg2ejJKSTI5MEp1b3l2MFdfeUxJTjV3NkQ3Vkl4WXNPMXYxdV9ZNUtiMTJ1em8za05xbGtNdVZCSmUya0IxaFdBV2x1eFZrWnFLblJXMmJ4UkZYN2VURkQ3OFhnQjFIVnlrUjRCdGRPWDJMRTNJSXhMNU1XQTRqY3dJMWFtNzhpRFJaVDhRVHNhd25lYU9DbjZQVF90T0hfQ2ViUnc3TGVmdw?oc=5",
+      "date": "Fri, 16 Oct 2026 13:42:55 GMT"
+    },
+    {
+      "title": "Saudi Airlines Rush to Save Scores of Planes From a War Zone - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeGNUdXZMUTdxVTRMMWR6VlF2bWJYVEpTVVJ5RWxWU216ZExnenZqZUNUYlZMZ2RiWlY5Q0xRbXVra20wX2d1TE8wY2RkbERLQmIyUFZvc3hJZU1JQkpkU3BPRkJ5MUdRV0dKNGlzYW02US1IVWM4SmJzSWdzRU1uRFJkcHM4dWI4NzAtcG9xOHJJVl9TaGNYQlpvbDhLQ2xPRXlQYlh1QXdwNEU?oc=5",
+      "date": "Wed, 14 Oct 2026 17:49:00 GMT"
+    },
+    {
+      "title": "Lufthansa Adds Extra Fuel Amid Supply Concerns - Travel Radar",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9FMVhIckJ0MWQtdzVjekJHSE1SY2Y0YVE2d3BjMGRHNDFvYWFEOEpkci1odGUxWEE5NTdRS0xTeTU5aWtEYm5fSEgyeDY1VHM4QUVteDc1aHBKMExsdUlUU0o2Y2pnRTlkS01sMjRSS0hjanpaa3FKNm1iZmU?oc=5",
+      "date": "Fri, 16 Oct 2026 22:33:46 GMT"
+    },
+    {
+      "title": "Aviation Capital Group orders 75 Airbus A320neo aircraft - Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWxxRlhQbGd2WEotR3dTeDJKNUJKenVva0tEcjJ2bEY4TTlJLTBEYjJhOXRtbDJQbHdqSGFzcVRqaUZMY0RBSVhUa0RKREpNN0RHWEdxNGlpTkM3Nm9rSzRmbnFCTGJYQWlkbFBrNnZQa29pZ3Q4MHRvV01ER2dvckpOUjdPMzFwcUM5MG5YTWVoWE92Q2FuY0FqTGlKZTZNTHNpOWtXb0I2eHJzX3RtUU5ETU43VVNmeUE?oc=5",
+      "date": "Fri, 16 Oct 2026 09:07:38 GMT"
+    }
+  ],
+  "airports": [
+    {
+      "title": "City names new El Paso airport aviation director - KFOX",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOTA0bEN5d2VOYURWUXpBOXhIdmd5OHJqdUtYMU03TGNVcUJ5ckU0UDJaeWRycHhGSlNjQTZIZEM1SUhFWjV5cFZlV0tLVkJIdmVfM1p2a0Z2T0lGTzRlenlzcjBhZm84c1ZyQjlXdFNWU3ZOX2hxVFB3N3lzRUt2UGEtaTc?oc=5",
+      "date": "Fri, 16 Oct 2026 23:15:03 GMT"
+    },
+    {
+      "title": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNjlHdlpLN0M4ZWJ5WmRvaUkyX2p0V0RNcnBqMmFaWVhqRzVUY2l6YlJkb2xpWXNXWXBZUlRXNzUyRHVhOXl2Wlh2bHROTWdQc1BYVkdjTVR3aFNaazVxOXR1REMtdW9HM0g3R3I0SW42T05qV3pOcDA0R2d3eC0xLWlxVS1MOFRiWHhyeFNzR0ZCWVl3dVplLU9wWmNNS3JhSGRBNjBTZjduSVp5TnlDd1pQN3ljajFBMHc?oc=5",
+      "date": "Fri, 16 Oct 2026 19:37:19 GMT"
+    },
+    {
+      "title": "El Paso airport hires new aviation director - KVIA",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONmNxRzRwZ0RMOVliTXo5VFRlNXVSVUwyc1p6Z3V5T2xMSnJQMFRpSlpDejdkYV8zWnpsSENQaWM4czU3YTJKb2tJeDZFNjlkbEtkbmdFZDNkNnN1TnlhRU1TbjktU0k4bTVlZUhrNHJZckxIelFCMlpSQUlEbjk5N2lDNnZybGRGRExSR0lB?oc=5",
+      "date": "Fri, 16 Oct 2026 20:42:39 GMT"
+    },
+    {
+      "title": "New aviation director named for El Paso International Airport - KTSM 9 News",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBrQ2MxN19EVWF4WWpENEZwYjJac3NfcG1MV2ZlNUtxMklVUzROOXcwcXd6dkRZZWduOTEyUnVpTmtUQkNlazRob05ZSDVWLXlP0gFWQVVfeXFMUDVrTWRuaXVaYmpneFFkWHg0M2pFZWswOWsxOVFGYlhEYVhkckE1VEdOUzE4M21qaFlBeXpGSHRieUU4Y053X09fVEFLVUFYUUR5M0JpR0E?oc=5",
+      "date": "Fri, 16 Oct 2026 19:53:08 GMT"
+    },
+    {
+      "title": "Dy of aviation history, education at Orange County Airport this Saturday - The Daily Progress",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdUdpUUY4YVUyQ3RZMzNPRkpfVll0aGxtLXJrVk9ybDJ3emJfUFZ3MWN6U3Fub2lqWkNtNFRHcWJzaTQ2NlE0V3B4NHE0ZE9uLWpmYlhrNVMtMlZMVjNFdVJ6a19iTlJ2UDRvZVZBMk50NnNXY3hobnFabGU1dnhOX2d4ZjUyZ04tRTB3b3ZtQjJqaWUxTHVybW5HUHc?oc=5",
+      "date": "Fri, 16 Oct 2026 20:00:00 GMT"
+    },
+    {
+      "title": "Central Mass. airport sold for $3.14M to aviation enthusiast - MassLive.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUmlGalh6eXlqQm5xb0ZlYnRaczZyMlBBVnBCNEFWY2JIUzViaUFoQ21SeFNveVI1WmZ3dlB6ek14QThudE1STlRXeVMxTTAzWEV3MFRSZ3FOem9LTGVoRE5qdmhCN2U1ZVFmc2tFVHZINkdQLXVmNkJHdnJCell4YVcwenVnMXYtb1ZlamcxS0Q1OEpWLUotRWVsNll4cFR1ZmVxekIzY0ROR1U?oc=5",
+      "date": "Fri, 16 Oct 2026 20:13:00 GMT"
+    },
+    {
+      "title": "Airport attacks put aviation in crosshairs of geopolitical conflicts - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5KWnZWVDlQYmdtdXJOa3FQWFVUX1FUM2laNkRqQnFSeUtocFdQVEYxdmpJNUVyczY0cm10MWhIbDhHY0tCcnNiLU9aaTlpem5vd2xzaVUzN0lUdkpYai10R1RfQ3lOTWZ0WEhmZk41WUpWUlRzTEZv0gF8QVVfeXFMTmJwWlh1ZWh6X1NrOTNzR0ctN2NRd1RCQ1Vrd3VaRGphd1BCODEwZ2xxSmdfQXI4YVJIQ3dQYWFWRnIzbWNQTHdGeDFUWnVVSUMyMDFmQzRBOEppZEJRWXpqWWFUcE5sQVlUSm56U3ZCSHZtMVhFLTIxM3k2Yg?oc=5",
+      "date": "Tue, 13 Oct 2026 18:33:33 GMT"
+    },
+    {
+      "title": "Guthrie-Edmond Regional Airport Celebrates New Terminal Expansion - City of Edmond (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPYU1JTVBuYU1NVVp2TnBsbl9URXk5ZVZLeWpvelZGcVFEbldOVWR4RmI5RnptRlVTdnowR09TZ01YTjMwbGNHNmE1TmxkcWx5RWdNVnVrcGxpYW1QU3Zj?oc=5",
+      "date": "Thu, 15 Oct 2026 22:20:22 GMT"
+    },
+    {
+      "title": "Avelo Airlines Launches New Florida Routes From McKinney - Travel Radar",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNekFldjRhSEhVVmxma3ZaU3ZfamJvNThKLUNPMXpjeXhCNnJGbF8wRTVsckcxX2czNmZsOGdTOGFYMDhmcmh6WFZVZkRkYnZWWGtiU1JkTU5qYzNnOEJZZ2FWRkRqTWp5dDVld2tTZWdZLUlnVlNSdFpTTGV6eWxpRS1xaFFOdEcxcUE?oc=5",
+      "date": "Fri, 16 Oct 2026 22:50:21 GMT"
+    },
+    {
+      "title": "Aviation Industry-News Takes Flight! - Airport Industry-News",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxUG9oSk5yd2hNMmJmcXRvVWlFS19IVDg1NXcxVkJHa1RYUGJreVhreDA5SmJQMDZ3Q29PZmJBc2VWTG8ycVpvM21XdlJQVDhkbThlT21jeUxPWXlHTXk4aUZoamc5TnJEcWNYODJSU01VMXFRQkVNTw?oc=5",
+      "date": "Thu, 15 Oct 2026 23:54:24 GMT"
+    }
+  ],
+  "airports_si": [
+    {
+      "title": "City names new El Paso airport aviation director - KFOX",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOTA0bEN5d2VOYURWUXpBOXhIdmd5OHJqdUtYMU03TGNVcUJ5ckU0UDJaeWRycHhGSlNjQTZIZEM1SUhFWjV5cFZlV0tLVkJIdmVfM1p2a0Z2T0lGTzRlenlzcjBhZm84c1ZyQjlXdFNWU3ZOX2hxVFB3N3lzRUt2UGEtaTc?oc=5",
+      "date": "Fri, 16 Oct 2026 23:15:03 GMT"
+    },
+    {
+      "title": "EXCLUSIVE: Trump move to restart direct US flights with Lebanon hits roadblock - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNjlHdlpLN0M4ZWJ5WmRvaUkyX2p0V0RNcnBqMmFaWVhqRzVUY2l6YlJkb2xpWXNXWXBZUlRXNzUyRHVhOXl2Wlh2bHROTWdQc1BYVkdjTVR3aFNaazVxOXR1REMtdW9HM0g3R3I0SW42T05qV3pOcDA0R2d3eC0xLWlxVS1MOFRiWHhyeFNzR0ZCWVl3dVplLU9wWmNNS3JhSGRBNjBTZjduSVp5TnlDd1pQN3ljajFBMHc?oc=5",
+      "date": "Fri, 16 Oct 2026 19:37:19 GMT"
+    },
+    {
+      "title": "El Paso airport hires new aviation director - KVIA",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONmNxRzRwZ0RMOVliTXo5VFRlNXVSVUwyc1p6Z3V5T2xMSnJQMFRpSlpDejdkYV8zWnpsSENQaWM4czU3YTJKb2tJeDZFNjlkbEtkbmdFZDNkNnN1TnlhRU1TbjktU0k4bTVlZUhrNHJZckxIelFCMlpSQUlEbjk5N2lDNnZybGRGRExSR0lB?oc=5",
+      "date": "Fri, 16 Oct 2026 20:42:39 GMT"
+    },
+    {
+      "title": "New aviation director named for El Paso International Airport - KTSM 9 News",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBrQ2MxN19EVWF4WWpENEZwYjJac3NfcG1MV2ZlNUtxMklVUzROOXcwcXd6dkRZZWduOTEyUnVpTmtUQkNlazRob05ZSDVWLXlP0gFWQVVfeXFMUDVrTWRuaXVaYmpneFFkWHg0M2pFZWswOWsxOVFGYlhEYVhkckE1VEdOUzE4M21qaFlBeXpGSHRieUU4Y053X09fVEFLVUFYUUR5M0JpR0E?oc=5",
+      "date": "Fri, 16 Oct 2026 19:53:08 GMT"
+    },
+    {
+      "title": "Dy of aviation history, education at Orange County Airport this Saturday - The Daily Progress",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdUdpUUY4YVUyQ3RZMzNPRkpfVll0aGxtLXJrVk9ybDJ3emJfUFZ3MWN6U3Fub2lqWkNtNFRHcWJzaTQ2NlE0V3B4NHE0ZE9uLWpmYlhrNVMtMlZMVjNFdVJ6a19iTlJ2UDRvZVZBMk50NnNXY3hobnFabGU1dnhOX2d4ZjUyZ04tRTB3b3ZtQjJqaWUxTHVybW5HUHc?oc=5",
+      "date": "Fri, 16 Oct 2026 20:00:00 GMT"
+    },
+    {
+      "title": "Central Mass. airport sold for $3.14M to aviation enthusiast - MassLive.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUmlGalh6eXlqQm5xb0ZlYnRaczZyMlBBVnBCNEFWY2JIUzViaUFoQ21SeFNveVI1WmZ3dlB6ek14QThudE1STlRXeVMxTTAzWEV3MFRSZ3FOem9LTGVoRE5qdmhCN2U1ZVFmc2tFVHZINkdQLXVmNkJHdnJCell4YVcwenVnMXYtb1ZlamcxS0Q1OEpWLUotRWVsNll4cFR1ZmVxekIzY0ROR1U?oc=5",
+      "date": "Fri, 16 Oct 2026 20:13:00 GMT"
+    },
+    {
+      "title": "Airport attacks put aviation in crosshairs of geopolitical conflicts - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5KWnZWVDlQYmdtdXJOa3FQWFVUX1FUM2laNkRqQnFSeUtocFdQVEYxdmpJNUVyczY0cm10MWhIbDhHY0tCcnNiLU9aaTlpem5vd2xzaVUzN0lUdkpYai10R1RfQ3lOTWZ0WEhmZk41WUpWUlRzTEZv0gF8QVVfeXFMTmJwWlh1ZWh6X1NrOTNzR0ctN2NRd1RCQ1Vrd3VaRGphd1BCODEwZ2xxSmdfQXI4YVJIQ3dQYWFWRnIzbWNQTHdGeDFUWnVVSUMyMDFmQzRBOEppZEJRWXpqWWFUcE5sQVlUSm56U3ZCSHZtMVhFLTIxM3k2Yg?oc=5",
+      "date": "Tue, 13 Oct 2026 18:33:33 GMT"
+    },
+    {
+      "title": "Guthrie-Edmond Regional Airport Celebrates New Terminal Expansion - City of Edmond (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPYU1JTVBuYU1NVVp2TnBsbl9URXk5ZVZLeWpvelZGcVFEbldOVWR4RmI5RnptRlVTdnowR09TZ01YTjMwbGNHNmE1TmxkcWx5RWdNVnVrcGxpYW1QU3Zj?oc=5",
+      "date": "Thu, 15 Oct 2026 22:20:22 GMT"
+    },
+    {
+      "title": "Avelo Airlines Launches New Florida Routes From McKinney - Travel Radar",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNekFldjRhSEhVVmxma3ZaU3ZfamJvNThKLUNPMXpjeXhCNnJGbF8wRTVsckcxX2czNmZsOGdTOGFYMDhmcmh6WFZVZkRkYnZWWGtiU1JkTU5qYzNnOEJZZ2FWRkRqTWp5dDVld2tTZWdZLUlnVlNSdFpTTGV6eWxpRS1xaFFOdEcxcUE?oc=5",
+      "date": "Fri, 16 Oct 2026 22:50:21 GMT"
+    },
+    {
+      "title": "Aviation Industry-News Takes Flight! - Airport Industry-News",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxUG9oSk5yd2hNMmJmcXRvVWlFS19IVDg1NXcxVkJHa1RYUGJreVhreDA5SmJQMDZ3Q29PZmJBc2VWTG8ycVpvM21XdlJQVDhkbThlT21jeUxPWXlHTXk4aUZoamc5TnJEcWNYODJSU01VMXFRQkVNTw?oc=5",
+      "date": "Thu, 15 Oct 2026 23:54:24 GMT"
+    }
+  ],
+  "safety": [
+    {
+      "title": "305th AMW hosts MACA fly-in, strengthens local aviation safety - Joint Base McGuire-Dix-Lakehurst (.mil)",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdWdVMWZwNG9vaWIwSWtERF8tdmRjb2REV05uZTBvVFpWQlVjdy1fX1p0YXYxM3FSYV8zaTFUYWNlbWtDVzVpNm95SzI4d0JLNEVfS2pqSEpqa3owRkZLUUgzVnpYMHhya2FzV2NsT1o5SkhsWlBLWUVodU9GZUtVbzlIRkFtLWdUbnZsSDdqTUxjV1MxNHRmMlNfekVTTlpTQ0E0WnZqUi1fXzdY?oc=5",
+      "date": "Fri, 16 Oct 2026 20:59:25 GMT"
+    },
+    {
+      "title": "The $30 billion air traffic control modernization plan that isn’t - Reason Foundation",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMnYyQ0xyT3FZR0FLanVyUHA1RDlVMnhUV3VVQTU4RkJZamszQ3BrdlJjY05yQlh4ekxBaElhYU5oZnZsU0ZZa3U0bjJDU2Q0U3hvak1EWVktWVhTd2JDTk9XT3l3cW1DTm1LVmR5VmNjVlVtV3o5ZzhQUlNiN1NGS0Ftcl9UazFEcU5GZkQ1RVJjQ0N1Tm16TXhBZVJMSlMzVC1PSTgxOA?oc=5",
+      "date": "Fri, 16 Oct 2026 18:45:00 GMT"
+    },
+    {
+      "title": "Army Findings Inject Urgency Into Air Safety Bill Talks - Aviation Pros",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQUo2ZlZQbzdDcmptRFFnSF9UdGxzUnhBMTY3TVVScjZxdjNPVUhubG9ScWVzel9aOVFOVTZvYjZsQkN0S0NMLTE4MjRVRGNKM2lQVFNtOHBkTkxVSWRjeEd1RWRROUZqWjlyRWxHcG93X2RDd01MWGtBUmpEcHI1cDJSZ2hnVUloRVVRcm5aZGt4Q0tnTGppZmQ2MUt2NFRjTDBwLXpZeW42Y2NGSEMzZEpXckZLSGZVMUtvcWlxS3ljTnNBb2hGaHMzS3BTb2tVRjh2c1BtY1FSS2ZsSFhzYVNXU1Q?oc=5",
+      "date": "Wed, 14 Oct 2026 21:39:58 GMT"
+    },
+    {
+      "title": "Delta CEO has firm message for travelers worried about flight safety - TheStreet",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY3J0ejFRenp2UU9CTDc1RTgwQTBfTEN1TTRUb3Z0SmJNUVlBVHkzVjdnN0ItcTRodjRnd2JUNnlaRXc0NnNDNGhfSUgzczZrcUVEWnd6elBDNWdtdkR4TVlxcHJuOGIxRk5yd2FqeUc1aE5yTzdNTmYwUWlGejg2all6SzJETlJpLWJWdEVuZw?oc=5",
+      "date": "Fri, 16 Oct 2026 23:03:00 GMT"
+    },
+    {
+      "title": "Air Line Pilot Magazine October 2026 - ALPA",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95MnBxaEhsZ2JsUElNLUdhblIxU0JVczRCU2VCUlFUbXRZeE9LZU1VanUwcVpKRUN0cDlJUTFWMzRYLUJ1d0xRbkJEY0Y4bG5LZ2dQZXN4THdUWDBXTURCNVEwYWdxTEcweVhxQ2x3UTM1MzVDZXk2d2hQR3JqQVk?oc=5",
+      "date": "Thu, 15 Oct 2026 18:11:56 GMT"
+    },
+    {
+      "title": "Exclusive | Air Traffic Controllers Reach Deal With FAA for 2.8% Pay Increase - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeUZyQzhMQ05CRkM5bUZ1RGRPWGpRMTJnSlljYVJDbHhZTVNsUXQ5UWJ4enZIR3lVS2t3ZUNLM2NqUjdyaDZ3VlMzZ0c4TElLVHZtdE9BQ1JUMzJkVjhGcmM4RGxWVEFLWlhPYV9iemdkbXQtckxMQ1UtN1NuR2dZaUprdEsxS1dTNHc0cGhfQ3p2Ym1SMkFqWlFOdjdwQVc2ZHM4eDA3NnROTWRZZmIxbw?oc=5",
+      "date": "Fri, 16 Oct 2026 20:49:00 GMT"
+    },
+    {
+      "title": "Local warehouse owner among the 6 people killed in Wisconsin plane crash - Bozeman Daily Chronicle",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPaHpVeXp4ZVVnSlhlUHgwM0R3TTFuZ1BLcC01V2llTEN4ZDRSWTY0aXFfSlMwMlpXSXZObjdraHpxZXpZM2NzRF8yUERsZEdlZVZUOURVMHdLZjFiMHNjVms4TE9LN0QtcW9YRWZxRjdackFjU09yRHRFaWc0VEIzM00zMDNIZnoxdUU0anBTQ3R4MXVtcFFjanRTckZSRWxjbWhmejRVX29vY1lVUFRpZlh4YTRYSTZ1MGE1NDJqM3pLeHdHRG1STEFiTk9IZ2tnR19uaTlUTWhzNHdNVG5makVlejdyYzNXMVNaYm1IWnlfeFdBRFhVbFFRc0xvVm8?oc=5",
+      "date": "Wed, 14 Oct 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Local warehouse owner among the 6 people killed in Wisconsin plane crash - Audacy",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZHpLeWpwSkpVMzN4bjctYzZrWmZMMUpxMkpvZ1ZOQkZHX1ZFb0FPSzlWVEZmZFY3WVpsRHRnRHF3ZWpzRnNES1NWdjlocEw2c1lRZjVIYlBmQnlJYlpQNmVnZFlkMVU1Y2F4MnVSeDFweC14eE5vend4VVVnNnBHUFFycllEa21xWHJPRjFLZUNfN3ZHeWJEeUhfMS1WTElOUE55TjBsTHFEQkg4aVJ0OHRqSlZCQQ?oc=5",
+      "date": "Thu, 15 Oct 2026 14:50:00 GMT"
+    },
+    {
+      "title": "Aviation expert weighs in on three routes cut by major airline - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96OXB1N2ozbUNQY2xPeXcydEpubU94YVRSZ2FEckF2Y2NpMEE3MGEwLWd5Y2Q0LTh1cmxTR0JnT01Sa0NDXzJDMkl4a1pJcVlxWkF0bnVn?oc=5",
+      "date": "Wed, 14 Oct 2026 22:46:21 GMT"
+    },
+    {
+      "title": "Investigators zero in on possible cause of Wisconsin plane crash that killed 6 - 930 WFMD Free Talk",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQkRnY1lLaHFuWHNvdGVMbXdSVkduQWN1RmJVNXVkU196ZHNDSG1ZaFFKa3g2R05XdUIwREduY2pfQWlfcVZxeTlKQ2dmMWwtY0ROTEl5ZGhjWnBtajJIVXpnc3B1eVpSRFFPaEk5SUUweGJpM3dGYWNLY2sxYVdRZDJPa3hySlc2Z0ZEdURsbl93N2ltd0Ezd0Z5M0wxbWJmQ29yS0lQYjM3TDN2WFJLSg?oc=5",
+      "date": "Thu, 15 Oct 2026 13:39:20 GMT"
+    }
+  ],
+  "safety_si": [
+    {
+      "title": "305th AMW hosts MACA fly-in, strengthens local aviation safety - Joint Base McGuire-Dix-Lakehurst (.mil)",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdWdVMWZwNG9vaWIwSWtERF8tdmRjb2REV05uZTBvVFpWQlVjdy1fX1p0YXYxM3FSYV8zaTFUYWNlbWtDVzVpNm95SzI4d0JLNEVfS2pqSEpqa3owRkZLUUgzVnpYMHhya2FzV2NsT1o5SkhsWlBLWUVodU9GZUtVbzlIRkFtLWdUbnZsSDdqTUxjV1MxNHRmMlNfekVTTlpTQ0E0WnZqUi1fXzdY?oc=5",
+      "date": "Fri, 16 Oct 2026 20:59:25 GMT"
+    },
+    {
+      "title": "The $30 billion air traffic control modernization plan that isn’t - Reason Foundation",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMnYyQ0xyT3FZR0FLanVyUHA1RDlVMnhUV3VVQTU4RkJZamszQ3BrdlJjY05yQlh4ekxBaElhYU5oZnZsU0ZZa3U0bjJDU2Q0U3hvak1EWVktWVhTd2JDTk9XT3l3cW1DTm1LVmR5VmNjVlVtV3o5ZzhQUlNiN1NGS0Ftcl9UazFEcU5GZkQ1RVJjQ0N1Tm16TXhBZVJMSlMzVC1PSTgxOA?oc=5",
+      "date": "Fri, 16 Oct 2026 18:45:00 GMT"
+    },
+    {
+      "title": "Army Findings Inject Urgency Into Air Safety Bill Talks - Aviation Pros",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQUo2ZlZQbzdDcmptRFFnSF9UdGxzUnhBMTY3TVVScjZxdjNPVUhubG9ScWVzel9aOVFOVTZvYjZsQkN0S0NMLTE4MjRVRGNKM2lQVFNtOHBkTkxVSWRjeEd1RWRROUZqWjlyRWxHcG93X2RDd01MWGtBUmpEcHI1cDJSZ2hnVUloRVVRcm5aZGt4Q0tnTGppZmQ2MUt2NFRjTDBwLXpZeW42Y2NGSEMzZEpXckZLSGZVMUtvcWlxS3ljTnNBb2hGaHMzS3BTb2tVRjh2c1BtY1FSS2ZsSFhzYVNXU1Q?oc=5",
+      "date": "Wed, 14 Oct 2026 21:39:58 GMT"
+    },
+    {
+      "title": "Delta CEO has firm message for travelers worried about flight safety - TheStreet",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY3J0ejFRenp2UU9CTDc1RTgwQTBfTEN1TTRUb3Z0SmJNUVlBVHkzVjdnN0ItcTRodjRnd2JUNnlaRXc0NnNDNGhfSUgzczZrcUVEWnd6elBDNWdtdkR4TVlxcHJuOGIxRk5yd2FqeUc1aE5yTzdNTmYwUWlGejg2all6SzJETlJpLWJWdEVuZw?oc=5",
+      "date": "Fri, 16 Oct 2026 23:03:00 GMT"
+    },
+    {
+      "title": "Air Line Pilot Magazine October 2026 - ALPA",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95MnBxaEhsZ2JsUElNLUdhblIxU0JVczRCU2VCUlFUbXRZeE9LZU1VanUwcVpKRUN0cDlJUTFWMzRYLUJ1d0xRbkJEY0Y4bG5LZ2dQZXN4THdUWDBXTURCNVEwYWdxTEcweVhxQ2x3UTM1MzVDZXk2d2hQR3JqQVk?oc=5",
+      "date": "Thu, 15 Oct 2026 18:11:56 GMT"
+    },
+    {
+      "title": "Exclusive | Air Traffic Controllers Reach Deal With FAA for 2.8% Pay Increase - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeUZyQzhMQ05CRkM5bUZ1RGRPWGpRMTJnSlljYVJDbHhZTVNsUXQ5UWJ4enZIR3lVS2t3ZUNLM2NqUjdyaDZ3VlMzZ0c4TElLVHZtdE9BQ1JUMzJkVjhGcmM4RGxWVEFLWlhPYV9iemdkbXQtckxMQ1UtN1NuR2dZaUprdEsxS1dTNHc0cGhfQ3p2Ym1SMkFqWlFOdjdwQVc2ZHM4eDA3NnROTWRZZmIxbw?oc=5",
+      "date": "Fri, 16 Oct 2026 20:49:00 GMT"
+    },
+    {
+      "title": "Local warehouse owner among the 6 people killed in Wisconsin plane crash - Bozeman Daily Chronicle",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPaHpVeXp4ZVVnSlhlUHgwM0R3TTFuZ1BLcC01V2llTEN4ZDRSWTY0aXFfSlMwMlpXSXZObjdraHpxZXpZM2NzRF8yUERsZEdlZVZUOURVMHdLZjFiMHNjVms4TE9LN0QtcW9YRWZxRjdackFjU09yRHRFaWc0VEIzM00zMDNIZnoxdUU0anBTQ3R4MXVtcFFjanRTckZSRWxjbWhmejRVX29vY1lVUFRpZlh4YTRYSTZ1MGE1NDJqM3pLeHdHRG1STEFiTk9IZ2tnR19uaTlUTWhzNHdNVG5makVlejdyYzNXMVNaYm1IWnlfeFdBRFhVbFFRc0xvVm8?oc=5",
+      "date": "Wed, 14 Oct 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Local warehouse owner among the 6 people killed in Wisconsin plane crash - Audacy",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZHpLeWpwSkpVMzN4bjctYzZrWmZMMUpxMkpvZ1ZOQkZHX1ZFb0FPSzlWVEZmZFY3WVpsRHRnRHF3ZWpzRnNES1NWdjlocEw2c1lRZjVIYlBmQnlJYlpQNmVnZFlkMVU1Y2F4MnVSeDFweC14eE5vend4VVVnNnBHUFFycllEa21xWHJPRjFLZUNfN3ZHeWJEeUhfMS1WTElOUE55TjBsTHFEQkg4aVJ0OHRqSlZCQQ?oc=5",
+      "date": "Thu, 15 Oct 2026 14:50:00 GMT"
+    },
+    {
+      "title": "Aviation expert weighs in on three routes cut by major airline - Fox News",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96OXB1N2ozbUNQY2xPeXcydEpubU94YVRSZ2FEckF2Y2NpMEE3MGEwLWd5Y2Q0LTh1cmxTR0JnT01Sa0NDXzJDMkl4a1pJcVlxWkF0bnVn?oc=5",
+      "date": "Wed, 14 Oct 2026 22:46:21 GMT"
+    },
+    {
+      "title": "Investigators zero in on possible cause of Wisconsin plane crash that killed 6 - 930 WFMD Free Talk",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQkRnY1lLaHFuWHNvdGVMbXdSVkduQWN1RmJVNXVkU196ZHNDSG1ZaFFKa3g2R05XdUIwREduY2pfQWlfcVZxeTlKQ2dmMWwtY0ROTEl5ZGhjWnBtajJIVXpnc3B1eVpSRFFPaEk5SUUweGJpM3dGYWNLY2sxYVdRZDJPa3hySlc2Z0ZEdURsbl93N2ltd0Ezd0Z5M0wxbWJmQ29yS0lQYjM3TDN2WFJLSg?oc=5",
+      "date": "Thu, 15 Oct 2026 13:39:20 GMT"
+    }
+  ]
 }
