@@ -1,0 +1,17 @@
+name: Aviation News Hourly Update
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check repository
+        uses: actions/checkout@v4
+
+      - name: Check workflow
+        run: echo "Aviation news hourly workflow is running."
