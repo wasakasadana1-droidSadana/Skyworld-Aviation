@@ -1,0 +1,784 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Skyworld Aviation | Aviation News</title>
+
+<meta name="description" content="Skyworld Aviation brings you aviation news from around the world, airlines, aircraft, airports, and aviation safety.">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #061426;
+    color: white;
+}
+
+header {
+    background: linear-gradient(135deg, #06315c, #00172f);
+    text-align: center;
+    padding: 30px 12px;
+    border-bottom: 4px solid #ffcc00;
+}
+
+.creator {
+    color: #ffcc00;
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+.logo {
+    font-size: 55px;
+}
+
+h1 {
+    color: #ffcc00;
+    font-size: clamp(25px, 5vw, 42px);
+    margin: 10px 0;
+}
+
+.subtitle {
+    color: #dce8f5;
+    font-size: 17px;
+}
+
+.languages {
+    margin-top: 22px;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.lang-btn {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 10px;
+    margin: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    background: white;
+    color: #12304e;
+}
+
+.lang-btn.active {
+    background: #ffcc00;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 18px;
+}
+
+.section-title {
+    text-align: center;
+    color: #ffcc00;
+    font-size: 26px;
+    margin: 28px 0 20px;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.category {
+    background: #112a45;
+    border: 2px solid #20476e;
+    border-radius: 15px;
+    padding: 18px 6px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    min-height: 120px;
+}
+
+.category:hover,
+.category.active {
+    background: #ffcc00;
+    color: #071629;
+    border-color: #ffcc00;
+}
+
+.category-icon {
+    display: block;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.news-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 35px;
+}
+
+.news-header h2 {
+    color: #ffcc00;
+    font-size: 23px;
+    margin: 0;
+}
+
+.action-btn {
+    background: #ffcc00;
+    color: #071629;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.search-box {
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #315779;
+    background: #112a45;
+    color: white;
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+.search-box::placeholder {
+    color: #a9bed3;
+}
+
+.status {
+    color: #c1d1e0;
+    margin: 18px 0 12px;
+    line-height: 1.6;
+}
+
+.news-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.news-card {
+    background: #112a45;
+    border: 1px solid #244463;
+    border-radius: 15px;
+    padding: 18px;
+    overflow-wrap: anywhere;
+}
+
+.news-category {
+    color: #ffcc00;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.news-card h3 {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 0 12px;
+}
+
+.news-card p {
+    color: #c1d1e0;
+    line-height: 1.7;
+    margin: 0 0 12px;
+}
+
+.news-date {
+    color: #9bb1c7;
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+
+.read-link {
+    display: inline-block;
+    background: #ffcc00;
+    color: #071629;
+    padding: 11px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.read-link:hover {
+    background: white;
+}
+
+.empty {
+    text-align: center;
+    padding: 25px 15px;
+    background: #112a45;
+    border-radius: 12px;
+    color: #c1d1e0;
+    line-height: 1.7;
+}
+
+footer {
+    background: #020b16;
+    border-top: 2px solid #ffcc00;
+    text-align: center;
+    padding: 25px 12px;
+    color: #b8c9db;
+    margin-top: 40px;
+}
+
+footer strong {
+    color: #ffcc00;
+}
+
+@media (min-width: 700px) {
+    .categories {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .news-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="creator">Created by Sadana</div>
+    <div class="logo">✈️</div>
+    <h1>SKYWORLD AVIATION</h1>
+
+    <div class="subtitle" id="subtitle">
+        Explore the world of aviation
+    </div>
+
+    <div class="languages">
+        <button class="lang-btn active"
+                id="englishBtn"
+                onclick="setLanguage('en')">
+            🇬🇧 English
+        </button>
+
+        <button class="lang-btn"
+                id="sinhalaBtn"
+                onclick="setLanguage('si')">
+            🇱🇰 සිංහල
+        </button>
+    </div>
+</header>
+
+<main class="container">
+
+    <h2 class="section-title" id="categoryHeading">
+        Aviation Categories
+    </h2>
+
+    <div class="categories">
+
+        <button class="category active"
+                data-category="World"
+                onclick="selectCategory('World')">
+            <span class="category-icon">🌍</span>
+            <span data-en="World Aviation"
+                  data-si="ලෝක ගුවන් සේවා">
+                World Aviation
+            </span>
+        </button>
+
+        <button class="category"
+                data-category="Sri Lanka"
+                onclick="selectCategory('Sri Lanka')">
+            <span class="category-icon">🇱🇰</span>
+            <span data-en="Sri Lanka Aviation"
+                  data-si="ශ්‍රී ලංකා ගුවන් සේවා">
+                Sri Lanka Aviation
+            </span>
+        </button>
+
+        <button class="category"
+                data-category="Airline"
+                onclick="selectCategory('Airline')">
+            <span class="category-icon">✈️</span>
+            <span data-en="Airlines"
+                  data-si="ගුවන් සමාගම්">
+                Airlines
+            </span>
+        </button>
+
+        <button class="category"
+                data-category="Aircraft"
+                onclick="selectCategory('Aircraft')">
+            <span class="category-icon">🛫</span>
+            <span data-en="Aircraft"
+                  data-si="ගුවන් යානා">
+                Aircraft
+            </span>
+        </button>
+
+        <button class="category"
+                data-category="Airport"
+                onclick="selectCategory('Airport')">
+            <span class="category-icon">🏢</span>
+            <span data-en="Airports"
+                  data-si="ගුවන් තොටුපළ">
+                Airports
+            </span>
+        </button>
+
+        <button class="category"
+                data-category="Aviation Safety"
+                onclick="selectCategory('Aviation Safety')">
+            <span class="category-icon">🛡️</span>
+            <span data-en="Aviation Safety"
+                  data-si="ගුවන් ආරක්ෂාව">
+                Aviation Safety
+            </span>
+        </button>
+
+    </div>
+
+    <div class="news-header">
+        <h2 id="newsHeading">🌍 World Aviation News</h2>
+
+        <button class="action-btn"
+                onclick="loadNews(true)"
+                id="refreshBtn">
+            🔄 Refresh News
+        </button>
+    </div>
+
+    <input
+        type="search"
+        class="search-box"
+        id="searchInput"
+        placeholder="🔍 Search aviation news..."
+    >
+
+    <div class="status" id="newsStatus" aria-live="polite">
+        Loading aviation news...
+    </div>
+
+    <div class="news-list" id="newsList"></div>
+
+</main>
+
+<footer>
+    <p>✈️ <strong>SKYWORLD AVIATION</strong></p>
+    <p id="footerText">Your world of aviation</p>
+    <p>Created by Sadana © <span id="year"></span></p>
+</footer>
+
+<script>
+const RSS2JSON =
+    "https://api.rss2json.com/v1/api.json?rss_url=";
+
+const feeds = {
+    World: [
+        "https://www.aviationtoday.com/feed/",
+        "https://simpleflying.com/feed/"
+    ],
+
+    "Sri Lanka": [
+        "https://www.google.com/alerts/feeds/00000000000000000000/00000000000000000000"
+    ],
+
+    Airline: [
+        "https://simpleflying.com/feed/",
+        "https://www.aviationtoday.com/feed/"
+    ],
+
+    Aircraft: [
+        "https://www.aviationtoday.com/feed/",
+        "https://simpleflying.com/feed/"
+    ],
+
+    Airport: [
+        "https://www.aviationtoday.com/feed/"
+    ],
+
+    "Aviation Safety": [
+        "https://www.aviationtoday.com/feed/"
+    ]
+};
+
+const categorySearch = {
+    World: "",
+    "Sri Lanka": "Sri Lanka aviation airport airline",
+    Airline: "airline airlines carrier",
+    Aircraft: "aircraft airplane Boeing Airbus",
+    Airport: "airport aviation airport",
+    "Aviation Safety": "aviation safety accident investigation"
+};
+
+const labels = {
+    en: {
+        subtitle: "Explore the world of aviation",
+        categoryHeading: "Aviation Categories",
+        World: "World Aviation News",
+        "Sri Lanka": "Sri Lanka Aviation News",
+        Airline: "Airline News",
+        Aircraft: "Aircraft News",
+        Airport: "Airport News",
+        "Aviation Safety": "Aviation Safety News",
+        refresh: "🔄 Refresh News",
+        search: "🔍 Search aviation news...",
+        loading: "Loading latest aviation news...",
+        noNews: "No matching news found. Try another category or search.",
+        failed: "Unable to load news right now. Please check your internet connection and try again.",
+        count: "News articles",
+        read: "Read Full Story ↗",
+        footer: "Your world of aviation",
+        updated: "Last checked"
+    },
+
+    si: {
+        subtitle: "ගුවන් සේවා ලෝකය ගවේෂණය කරන්න",
+        categoryHeading: "ගුවන් සේවා වර්ග",
+        World: "ලෝක ගුවන් සේවා පුවත්",
+        "Sri Lanka": "ශ්‍රී ලංකා ගුවන් සේවා පුවත්",
+        Airline: "ගුවන් සමාගම් පුවත්",
+        Aircraft: "ගුවන් යානා පුවත්",
+        Airport: "ගුවන් තොටුපළ පුවත්",
+        "Aviation Safety": "ගුවන් ආරක්ෂක පුවත්",
+        refresh: "🔄 පුවත් යාවත්කාලීන කරන්න",
+        search: "🔍 ගුවන් සේවා පුවත් සොයන්න...",
+        loading: "අලුත් පුවත් ලබාගනිමින් පවතී...",
+        noNews: "ගැළපෙන පුවත් හමු වුණේ නැත. වෙනත් Category එකක් තෝරන්න.",
+        failed: "දැනට පුවත් ලබාගත නොහැක. අන්තර්ජාල සම්බන්ධතාවය පරීක්ෂා කර නැවත උත්සාහ කරන්න.",
+        count: "පුවත් ගණන",
+        read: "සම්පූර්ණ පුවත කියවන්න ↗",
+        footer: "ඔබේ ගුවන් සේවා ලෝකය",
+        updated: "අවසන් වරට පරීක්ෂා කළේ"
+    }
+};
+
+let currentLanguage = "en";
+let currentCategory = "World";
+let allNews = [];
+let requestNumber = 0;
+
+const newsList = document.getElementById("newsList");
+const newsStatus = document.getElementById("newsStatus");
+const searchInput = document.getElementById("searchInput");
+
+function setLanguage(language) {
+    currentLanguage = language;
+
+    document.documentElement.lang = language;
+
+    document.getElementById("englishBtn")
+        .classList.toggle("active", language === "en");
+
+    document.getElementById("sinhalaBtn")
+        .classList.toggle("active", language === "si");
+
+    document.getElementById("subtitle").textContent =
+        labels[language].subtitle;
+
+    document.getElementById("categoryHeading").textContent =
+        labels[language].categoryHeading;
+
+    document.getElementById("refreshBtn").textContent =
+        labels[language].refresh;
+
+    document.getElementById("footerText").textContent =
+        labels[language].footer;
+
+    searchInput.placeholder = labels[language].search;
+
+    document.querySelectorAll("[data-en]").forEach(element => {
+        element.textContent = element.getAttribute("data-" + language);
+    });
+
+    renderNews();
+}
+
+function selectCategory(category) {
+    currentCategory = category;
+
+    document.querySelectorAll(".category").forEach(button => {
+        button.classList.toggle(
+            "active",
+            button.dataset.category === category
+        );
+    });
+
+    renderNews();
+
+    loadNews(false);
+}
+
+function cleanText(value) {
+    const element = document.createElement("div");
+    element.innerHTML = value || "";
+    return (element.textContent || "").trim();
+}
+
+function stripHtml(value) {
+    return cleanText(value)
+        .replace(/\s+/g, " ")
+        .trim();
+}
+
+function isRecent(item) {
+    if (!item.pubDate) return true;
+
+    const date = new Date(item.pubDate);
+
+    if (Number.isNaN(date.getTime())) return true;
+
+    const age = Date.now() - date.getTime();
+
+    return age <= 1000 * 60 * 60 * 24 * 30;
+}
+
+function matchesCategory(item, category) {
+    const text = (
+        item.title + " " +
+        item.description + " " +
+        item.source
+    ).toLowerCase();
+
+    const terms = {
+        World: [],
+        "Sri Lanka": [
+            "sri lanka", "srilankan", "colombo",
+            "bandaranaike", "mattala"
+        ],
+        Airline: [
+            "airline", "airways", "airlines",
+            "carrier", "flight route"
+        ],
+        Aircraft: [
+            "aircraft", "airplane", "boeing",
+            "airbus", "jet", "plane"
+        ],
+        Airport: [
+            "airport", "terminal", "runway",
+            "aviation hub"
+        ],
+        "Aviation Safety": [
+            "safety", "investigation", "incident",
+            "accident", "faa", "safety review"
+        ]
+    };
+
+    if (category === "World") return true;
+
+    return terms[category].some(term => text.includes(term));
+}
+
+function getSearchText(item) {
+    return (
+        item.title + " " +
+        item.description + " " +
+        item.source
+    ).toLowerCase();
+}
+
+async function fetchFeed(feedUrl) {
+    const apiUrl = RSS2JSON + encodeURIComponent(feedUrl);
+
+    const response = await fetch(apiUrl);
+
+    if (!response.ok) {
+        throw new Error("News feed request failed");
+    }
+
+    const data = await response.json();
+
+    if (data.status !== "ok" || !Array.isArray(data.items)) {
+        throw new Error("Invalid news feed");
+    }
+
+    return data.items.map(item => ({
+        title: stripHtml(item.title),
+        description: stripHtml(
+            item.description || item.content || ""
+        ),
+        link: item.link || "",
+        pubDate: item.pubDate || "",
+        source: data.feed && data.feed.title
+            ? data.feed.title
+            : "Aviation News"
+    })).filter(item =>
+        item.title &&
+        /^https?:\/\//i.test(item.link) &&
+        isRecent(item)
+    );
+}
+
+async function loadNews(showLoading = true) {
+    const thisRequest = ++requestNumber;
+
+    if (showLoading) {
+        newsStatus.textContent = labels[currentLanguage].loading;
+        newsList.innerHTML = "";
+    }
+
+    const category = currentCategory;
+    const feedUrls = feeds[category] || feeds.World;
+
+    try {
+        const results = await Promise.allSettled(
+            feedUrls.map(url => fetchFeed(url))
+        );
+
+        if (thisRequest !== requestNumber) return;
+
+        const combined = [];
+
+        results.forEach(result => {
+            if (result.status === "fulfilled") {
+                combined.push(...result.value);
+            }
+        });
+
+        const unique = new Map();
+
+        combined.forEach(item => {
+            const key = item.link || item.title;
+
+            if (!unique.has(key)) {
+                unique.set(key, item);
+            }
+        });
+
+        allNews = [...unique.values()]
+            .filter(item => matchesCategory(item, category))
+            .sort((a, b) => {
+                return new Date(b.pubDate || 0) -
+                       new Date(a.pubDate || 0);
+            });
+
+        if (allNews.length === 0) {
+            newsList.innerHTML =
+                '<div class="empty">' +
+                labels[currentLanguage].failed +
+                '<br><br>' +
+                'Some news feeds may be temporarily unavailable.' +
+                '</div>';
+
+            newsStatus.textContent =
+                labels[currentLanguage].count + ": 0";
+
+            return;
+        }
+
+        renderNews();
+
+        const now = new Date().toLocaleTimeString(
+            currentLanguage === "si" ? "si-LK" : "en-GB",
+            { hour: "2-digit", minute: "2-digit" }
+        );
+
+        newsStatus.textContent =
+            labels[currentLanguage].count + ": " +
+            allNews.length + " · " +
+            labels[currentLanguage].updated + ": " + now;
+
+    } catch (error) {
+        if (thisRequest !== requestNumber) return;
+
+        newsList.innerHTML =
+            '<div class="empty">' +
+            labels[currentLanguage].failed +
+            '</div>';
+
+        newsStatus.textContent =
+            labels[currentLanguage].loading;
+    }
+}
+
+function renderNews() {
+    const t = labels[currentLanguage];
+
+    document.getElementById("newsHeading").textContent =
+        "✈️ " + t[currentCategory];
+
+    const query = searchInput.value.toLowerCase().trim();
+
+    const filtered = allNews.filter(item => {
+        return getSearchText(item).includes(query);
+    });
+
+    newsList.innerHTML = "";
+
+    if (filtered.length === 0) {
+        newsList.innerHTML =
+            '<div class="empty">' + t.noNews + '</div>';
+        return;
+    }
+
+    filtered.forEach(item => {
+        const card = document.createElement("article");
+        card.className = "news-card";
+
+        const category = document.createElement("div");
+        category.className = "news-category";
+        category.textContent = item.source;
+
+        const heading = document.createElement("h3");
+        heading.textContent = item.title;
+
+        const paragraph = document.createElement("p");
+        paragraph.textContent =
+            item.description || item.title;
+
+        const date = document.createElement("div");
+        date.className = "news-date";
+
+        const parsedDate = item.pubDate
+            ? new Date(item.pubDate)
+            : null;
+
+        date.textContent =
+            parsedDate && !Number.isNaN(parsedDate.getTime())
+                ? parsedDate.toLocaleDateString(
+                    currentLanguage === "si" ? "si-LK" : "en-GB"
+                )
+                : "";
+
+        const link = document.createElement("a");
+        link.className = "read-link";
+        link.href = item.link;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = t.read;
+
+        card.appendChild(category);
+        card.appendChild(heading);
+        card.appendChild(paragraph);
+        card.appendChild(date);
+        card.appendChild(link);
+
+        newsList.appendChild(card);
+    });
+}
+
+searchInput.addEventListener("input", renderNews);
+
+document.getElementById("year").textContent =
+    new Date().getFullYear();
+
+setLanguage("en");
+loadNews(true);
+
+/* Automatically check for new articles every 15 minutes. */
+setInterval(() => {
+    loadNews(false);
+}, 15 * 60 * 1000);
+
+</script>
+
+</body>
+</html>
