@@ -1,0 +1,117 @@
+name: Update Aviation News
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get repository files
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Download aviation news
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+          import urllib.parse
+          import xml.etree.ElementTree as ET
+
+          categories = {
+              "world": "aviation news",
+              "srilanka": "Sri Lanka aviation airline",
+              "airlines": "airline news",
+              "aircraft": "aircraft aviation news",
+              "airports": "airport aviation news",
+              "safety": "aviation safety news"
+          }
+
+          os.makedirs("data", exist_ok=True)
+          news = {}
+
+          def get_feed(query, language):
+              if language == "si":
+                  params = {
+                      "q": query,
+                      "hl": "si",
+                      "gl": "LK",
+                      "ceid": "LK:si"
+                  }
+              else:
+                  params = {
+                      "q": query,
+                      "hl": "en-US",
+                      "gl": "US",
+                      "ceid": "US:en"
+                  }
+
+              url = (
+                  "https://news.google.com/rss/search?"
+                  + urllib.parse.urlencode(params)
+              )
+
+              request = urllib.request.Request(
+                  url,
+                  headers={"User-Agent": "Mozilla/5.0"}
+              )
+
+              with urllib.request.urlopen(request, timeout=25) as response:
+                  root = ET.fromstring(response.read())
+
+              articles = []
+
+              for item in root.findall("./channel/item")[:10]:
+                  title = item.findtext("title", default="").strip()
+                  link = item.findtext("link", default="").strip()
+                  date = item.findtext("pubDate", default="").strip()
+
+                  if title and link:
+                      articles.append({
+                          "title": title,
+                          "link": link,
+                          "date": date
+                      })
+
+              return articles
+
+          for category, query in categories.items():
+              for language in ("en", "si"):
+                  key = category if language == "en" else category + "_si"
+
+                  try:
+                      news[key] = get_feed(query, language)
+                      print(f"{key}: {len(news[key])} articles")
+                  except Exception as error:
+                      print(f"Could not update {key}: {error}")
+                      news[key] = []
+
+          with open("data/news.json", "w", encoding="utf-8") as file:
+              json.dump(news, file, ensure_ascii=False, indent=2)
+
+          print("News JSON updated.")
+          PY
+
+      - name: Save updated news
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          if git diff --cached --quiet; then
+            echo "No news changes to save."
+          else
+            git commit -m "Automatically update aviation news"
+            git push
+          fi
