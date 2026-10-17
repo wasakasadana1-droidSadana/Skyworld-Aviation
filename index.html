@@ -1,0 +1,344 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Skyworld Aviation</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #071629;
+  color: white;
+}
+
+header {
+  background: #003566;
+  padding: 24px 12px;
+  text-align: center;
+}
+
+header h1 {
+  color: #ffd60a;
+  margin: 0;
+}
+
+.language {
+  margin-top: 18px;
+}
+
+button {
+  cursor: pointer;
+  padding: 11px 15px;
+  margin: 4px;
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+.language button {
+  background: white;
+  color: #003566;
+}
+
+.language button.active {
+  background: #ffd60a;
+}
+
+h2.section-title {
+  text-align: center;
+  color: #ffd60a;
+  margin-top: 28px;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  padding: 12px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.category {
+  background: #003566;
+  color: white;
+  min-height: 65px;
+  border: 1px solid #426b91;
+}
+
+.category.active {
+  background: #ffd60a;
+  color: #071629;
+}
+
+#status {
+  text-align: center;
+  color: #ddd;
+  padding: 14px;
+}
+
+#news {
+  max-width: 900px;
+  margin: auto;
+  padding: 12px;
+}
+
+.article {
+  background: #102a43;
+  padding: 17px;
+  margin-bottom: 14px;
+  border-radius: 9px;
+  overflow-wrap: anywhere;
+}
+
+.article a {
+  color: #ffd60a;
+  text-decoration: none;
+}
+
+.article p {
+  color: #ddd;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  padding: 22px;
+  background: #003566;
+  margin-top: 25px;
+}
+
+@media (min-width: 600px) {
+  .categories {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>✈️ Skyworld Aviation</h1>
+  <p id="tagline">Aviation News Around the World</p>
+
+  <div class="language">
+    <button id="enButton" class="active"
+      onclick="setLanguage('en')">🇬🇧 English</button>
+
+    <button id="siButton"
+      onclick="setLanguage('si')">🇱🇰 සිංහල</button>
+  </div>
+</header>
+
+<h2 class="section-title" id="categoryTitle">News Categories</h2>
+
+<div class="categories" id="categories"></div>
+
+<h2 class="section-title" id="newsTitle">Latest News</h2>
+
+<div id="status">Loading news...</div>
+
+<main id="news"></main>
+
+<footer>
+  © 2026 Skyworld Aviation
+</footer>
+
+<script>
+const categories = [
+  {
+    id: "world",
+    en: "🌍 World Aviation",
+    si: "🌍 ලෝක ගුවන් සේවා",
+    query: "aviation"
+  },
+  {
+    id: "srilanka",
+    en: "🇱🇰 Sri Lanka Aviation",
+    si: "🇱🇰 ශ්‍රී ලංකා ගුවන් සේවා",
+    query: '"Sri Lanka" aviation OR airline'
+  },
+  {
+    id: "airlines",
+    en: "✈️ Airline News",
+    si: "✈️ ගුවන් සමාගම් පුවත්",
+    query: "airline news"
+  },
+  {
+    id: "aircraft",
+    en: "🛫 Aircraft News",
+    si: "🛫 ගුවන් යානා පුවත්",
+    query: "aircraft aviation"
+  },
+  {
+    id: "airports",
+    en: "🏢 Airport News",
+    si: "🏢 ගුවන්තොටුපොළ පුවත්",
+    query: "airport news"
+  },
+  {
+    id: "safety",
+    en: "🛡️ Aviation Safety",
+    si: "🛡️ ගුවන් ආරක්ෂාව",
+    query: "aviation safety"
+  }
+];
+
+let language = "en";
+let selectedCategory = "world";
+let newsCache = {};
+
+function setLanguage(lang) {
+  language = lang;
+
+  document.documentElement.lang =
+    lang === "si" ? "si" : "en";
+
+  document.getElementById("tagline").textContent =
+    lang === "si"
+      ? "ලොව පුරා ගුවන් සේවා පුවත්"
+      : "Aviation News Around the World";
+
+  document.getElementById("categoryTitle").textContent =
+    lang === "si" ? "පුවත් වර්ග" : "News Categories";
+
+  document.getElementById("newsTitle").textContent =
+    lang === "si" ? "නවතම පුවත්" : "Latest News";
+
+  document.getElementById("enButton")
+    .classList.toggle("active", lang === "en");
+
+  document.getElementById("siButton")
+    .classList.toggle("active", lang === "si");
+
+  renderCategories();
+  renderNews();
+}
+
+function renderCategories() {
+  const container = document.getElementById("categories");
+  container.replaceChildren();
+
+  categories.forEach(category => {
+    const button = document.createElement("button");
+
+    button.className = "category" +
+      (selectedCategory === category.id ? " active" : "");
+
+    button.textContent = category[language];
+
+    button.onclick = () => {
+      selectedCategory = category.id;
+      renderCategories();
+      loadNews();
+    };
+
+    container.appendChild(button);
+  });
+}
+
+function renderNews() {
+  const container = document.getElementById("news");
+  container.replaceChildren();
+
+  const articles = newsCache[selectedCategory] || [];
+
+  if (!articles.length) {
+    document.getElementById("status").textContent =
+      language === "si"
+        ? "පුවත් ලබාගනිමින් පවතී..."
+        : "Loading news...";
+
+    return;
+  }
+
+  document.getElementById("status").textContent =
+    language === "si"
+      ? "නවතම පුවත්"
+      : "Latest News";
+
+  articles.forEach(item => {
+    const article = document.createElement("article");
+    article.className = "article";
+
+    const heading = document.createElement("h3");
+    const link = document.createElement("a");
+
+    link.href = item.link;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = item.title;
+
+    heading.appendChild(link);
+
+    const date = document.createElement("p");
+    date.textContent = item.date || "";
+
+    article.append(heading, date);
+    container.appendChild(article);
+  });
+}
+
+async function loadNews() {
+  const status = document.getElementById("status");
+
+  if (!newsCache[selectedCategory]) {
+    status.textContent =
+      language === "si"
+        ? "පුවත් ලබාගනිමින් පවතී..."
+        : "Loading news...";
+  }
+
+  try {
+    const response = await fetch("./data/news.json", {
+      cache: "no-store"
+    });
+
+    if (!response.ok) {
+      throw new Error("News file unavailable");
+    }
+
+    const data = await response.json();
+
+    categories.forEach(category => {
+      newsCache[category.id] =
+        Array.isArray(data[category.id])
+          ? data[category.id]
+          : [];
+    });
+
+    renderNews();
+
+    if (!newsCache[selectedCategory].length) {
+      status.textContent =
+        language === "si"
+          ? "මෙම වර්ගයට පුවත් තවම නැහැ."
+          : "No news available in this category.";
+    }
+
+  } catch (error) {
+    console.error(error);
+
+    status.textContent =
+      language === "si"
+        ? "පුවත් ලබාගැනීමට නොහැකි විය. පසුව උත්සාහ කරන්න."
+        : "Unable to load news. Please try again later.";
+  }
+}
+
+setLanguage("en");
+loadNews();
+
+setInterval(loadNews, 5 * 60 * 1000);
+</script>
+
+</body>
+</html>
