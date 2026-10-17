@@ -1,9 +1,8 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Skyworld Aviation</title>
 
 <style>
@@ -20,34 +19,29 @@ body {
 
 header {
   background: #003566;
-  padding: 15px;
+  padding: 12px;
   text-align: center;
 }
 
 .creator {
   text-align: right;
   font-size: 11px;
-  color: #dce8f5;
+  color: #ffffff;
   margin: 0 0 15px;
 }
 
-header h1 {
+h1 {
   color: #ffd60a;
-  margin: 0;
-  font-size: 28px;
-}
-
-header p {
   margin: 10px 0;
 }
 
 .language {
-  margin-top: 15px;
+  margin: 15px;
 }
 
 button {
   cursor: pointer;
-  padding: 11px;
+  padding: 12px;
   margin: 4px;
   border: none;
   border-radius: 7px;
@@ -72,7 +66,7 @@ button {
 .categories {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
+  gap: 9px;
   padding: 12px;
   max-width: 900px;
   margin: auto;
@@ -92,8 +86,8 @@ button {
 
 #status {
   text-align: center;
-  color: #ddd;
   padding: 12px;
+  color: #ddd;
 }
 
 #news {
@@ -121,9 +115,9 @@ button {
 }
 
 footer {
+  background: #003566;
   text-align: center;
   padding: 20px;
-  background: #003566;
   margin-top: 25px;
 }
 
@@ -178,43 +172,36 @@ footer {
 </footer>
 
 <script>
-
 const categories = [
   {
     id: "world",
     en: "🌍 World Aviation",
-    si: "🌍 ලෝක ගුවන් සේවා",
-    query: "aviation"
+    si: "🌍 ලෝක ගුවන් සේවා"
   },
   {
     id: "srilanka",
     en: "🇱🇰 Sri Lanka Aviation",
-    si: "🇱🇰 ශ්‍රී ලංකා ගුවන් සේවා",
-    query: '"Sri Lanka" aviation OR airline'
+    si: "🇱🇰 ශ්‍රී ලංකා ගුවන් සේවා"
   },
   {
     id: "airlines",
     en: "✈️ Airline News",
-    si: "✈️ ගුවන් සමාගම් පුවත්",
-    query: "airline news"
+    si: "✈️ ගුවන් සමාගම් පුවත්"
   },
   {
     id: "aircraft",
     en: "🛫 Aircraft News",
-    si: "🛫 ගුවන් යානා පුවත්",
-    query: "aircraft aviation"
+    si: "🛫 ගුවන් යානා පුවත්"
   },
   {
     id: "airports",
     en: "🏢 Airport News",
-    si: "🏢 ගුවන්තොටුපොළ පුවත්",
-    query: "airport news"
+    si: "🏢 ගුවන්තොටුපොළ පුවත්"
   },
   {
     id: "safety",
     en: "🛡️ Aviation Safety",
-    si: "🛡️ ගුවන් ආරක්ෂාව",
-    query: "aviation safety"
+    si: "🛡️ ගුවන් ආරක්ෂාව"
   }
 ];
 
@@ -282,7 +269,6 @@ function renderNews() {
       language === "si"
         ? "පුවත් ලබාගනිමින් පවතී..."
         : "Loading news...";
-
     return;
   }
 
@@ -362,7 +348,6 @@ setLanguage("en");
 loadNews();
 
 setInterval(loadNews, 5 * 60 * 1000);
-
 </script>
 
 </body>
