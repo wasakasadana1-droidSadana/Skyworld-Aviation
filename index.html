@@ -325,20 +325,4 @@ async function loadNews() {
     }
 
   } catch (error) {
-    console.error(error);
-
-    status.textContent =
-      language === "si"
-        ? "පුවත් ලබාගැනීමට නොහැකි විය. පසුව උත්සාහ කරන්න."
-        : "Unable to load news. Please try again later.";
-  }
-}
-
-setLanguage("en");
-loadNews();
-
-setInterval(loadNews, 5 * 60 * 1000);
-</script>
-
-</body>
-</html>
+    console.error(error
